@@ -1,0 +1,17 @@
+#!/bin/sh
+vol=$(audio-control vol)
+vol_num=$(audio-control vol | sed 's/\%//')
+
+[ $vol_num -eq 0 ] && echo "🔇 " && exit
+
+
+
+if [ "$vol_num" -lt "25" ]; then
+    icon="🔈"
+elif [ "$vol_num" -lt "75" ]; then
+    icon="🔉"
+elif [ "$vol_num" -gt "75" ]; then
+    icon="🔊"
+fi
+
+echo "$icon $vol"

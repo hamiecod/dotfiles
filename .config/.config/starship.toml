@@ -1,0 +1,12 @@
+add_newline = false
+
+format = """
+$directory\
+$git_commit\
+$git_state\
+$git_status\
+$character"""
+[character]
+success_symbol = "[->](bold green)"
+error_symbol = "[->](bold red)"
+

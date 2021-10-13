@@ -1,0 +1,3 @@
+#!/bin/sh
+
+nvim `du ~/.config/ -X ~/.local/share/config-ommitted | awk '{print $2}' | fzf`

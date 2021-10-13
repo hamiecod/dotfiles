@@ -1,0 +1,5 @@
+#!/bin/sh
+
+data=`python /opt/timetabler/main.py `
+
+notify-send "Timetable" "$data"

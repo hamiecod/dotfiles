@@ -1,0 +1,4 @@
+# Created by newuser for 5.8
+autoload -Uz zsh-newuser-install
+zsh-newuser-install -f
+export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}" 

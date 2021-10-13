@@ -1,0 +1,6 @@
+#!/bin/sh
+
+chosen=`cut -d ';' -f1 ~/.local/share/git-emoji | dmenu -i -l 30 | sed "s/ .*//"`
+
+echo $chosen | tr -d '\n' | xclip -selection clipboard
+notify-send "'$chosen' copied to clipboard"

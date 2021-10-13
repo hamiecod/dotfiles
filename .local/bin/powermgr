@@ -1,0 +1,8 @@
+#! /bin/sh
+
+chosen=${1:-`echo -e "[Cancel]\nShutdown\nReboot\nSuspend" | dmenu -i`}
+
+[ "$chosen" = "Shutdown" ] && dmenu-prompt "Confirm $chosen ?" "shutdown now"
+[ "$chosen" = "Reboot" ] && dmenu-prompt "Confirm $chosen ?" "shutdown -r now"
+[ "$chosen" = "Suspend" ] && dmenu-prompt "Confirm $chosen ?" "systemctl suspend"
+

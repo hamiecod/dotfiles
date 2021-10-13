@@ -1,0 +1,5 @@
+#!/bin/sh
+
+chosen=`echo -e "No\nYes" | dmenu -p "$1"`
+
+[ "$chosen" = "Yes" ] && $2

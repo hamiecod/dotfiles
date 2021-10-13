@@ -1,0 +1,9 @@
+branch: arn:aws:s3:::popsql-codepipeline/popsql-desktop-produ/SourceArti/mv5iruO
+commitHash: aaac92ade3952c0be1c9beeb780adabc4347dc46
+contentType: application/gzip
+created: '2021-10-08T18:39:38.602Z'
+fileName: PopSQL-renderer-aaac92ade395.tgz
+name: PopSQL-renderer-aaac92ade395
+sha512: >-
+  42fad23d01b3352c65d6170f4b93c92100e6a8e8181fa4f57b6bf8c0381d8ac0cc620854a1f2fa92e21a5930f1ca50008d924d459c540b5156baf2037f4faca6
+size: 8059256

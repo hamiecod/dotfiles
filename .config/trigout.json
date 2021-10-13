@@ -1,0 +1,7 @@
+[
+  {
+    "sock_name": "dwm",
+    "format_str": "{date} | {volume}",
+    "data_file": null
+  }
+]

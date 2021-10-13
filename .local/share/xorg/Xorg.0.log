@@ -1,0 +1,902 @@
+[    22.601] (--) Log file renamed from "/home/hamiecod/.local/share/xorg/Xorg.pid-1026.log" to "/home/hamiecod/.local/share/xorg/Xorg.0.log"
+[    22.603] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[    22.603] 
+X.Org X Server 1.20.12
+X Protocol Version 11, Revision 0
+[    22.603] Build Operating System: Linux Archlinux
+[    22.603] Current Operating System: Linux Hargun-Arch 5.10.52-1-lts #1 SMP Tue, 20 Jul 2021 16:46:09 +0000 x86_64
+[    22.603] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-lts root=/dev/mapper/volgroup0-lv_root rw loglevel=3 quiet
+[    22.603] Build Date: 08 July 2021  08:00:40PM
+[    22.603]  
+[    22.603] Current version of pixman: 0.40.0
+[    22.603] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    22.603] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    22.604] (==) Log file: "/home/hamiecod/.local/share/xorg/Xorg.0.log", Time: Sun Oct 10 08:43:46 2021
+[    22.605] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    22.605] (==) No Layout section.  Using the first Screen section.
+[    22.605] (==) No screen section available. Using defaults.
+[    22.605] (**) |-->Screen "Default Screen Section" (0)
+[    22.605] (**) |   |-->Monitor "<default monitor>"
+[    22.606] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    22.606] (==) Automatically adding devices
+[    22.606] (==) Automatically enabling devices
+[    22.606] (==) Automatically adding GPU devices
+[    22.606] (==) Automatically binding GPU devices
+[    22.606] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    22.606] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    22.606] 	Entry deleted from font path.
+[    22.606] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[    22.606] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    22.606] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    22.606] (II) Module ABI versions:
+[    22.606] 	X.Org ANSI C Emulation: 0.4
+[    22.606] 	X.Org Video Driver: 24.1
+[    22.606] 	X.Org XInput driver : 24.1
+[    22.606] 	X.Org Server Extension : 10.0
+[    22.606] (++) using VT number 2
+
+[    22.608] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
+[    22.608] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    22.609] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 11 paused 0
+[    22.611] (--) PCI:*(0@0:2:0) 8086:5917:103c:8486 rev 7, Mem @ 0xa0000000/16777216, 0x90000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
+[    22.611] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    22.611] (II) LoadModule: "glx"
+[    22.612] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    22.615] (II) Module glx: vendor="X.Org Foundation"
+[    22.615] 	compiled for 1.20.12, module version = 1.0.0
+[    22.615] 	ABI class: X.Org Server Extension, version 10.0
+[    22.615] (==) Matched intel as autoconfigured driver 0
+[    22.615] (==) Matched modesetting as autoconfigured driver 1
+[    22.615] (==) Matched fbdev as autoconfigured driver 2
+[    22.615] (==) Matched vesa as autoconfigured driver 3
+[    22.615] (==) Assigned the driver to the xf86ConfigLayout
+[    22.615] (II) LoadModule: "intel"
+[    22.615] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    22.618] (II) Module intel: vendor="X.Org Foundation"
+[    22.618] 	compiled for 1.20.10, module version = 2.99.917
+[    22.618] 	Module class: X.Org Video Driver
+[    22.618] 	ABI class: X.Org Video Driver, version 24.1
+[    22.618] (II) LoadModule: "modesetting"
+[    22.618] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    22.619] (II) Module modesetting: vendor="X.Org Foundation"
+[    22.619] 	compiled for 1.20.12, module version = 1.20.12
+[    22.619] 	Module class: X.Org Video Driver
+[    22.619] 	ABI class: X.Org Video Driver, version 24.1
+[    22.619] (II) LoadModule: "fbdev"
+[    22.621] (WW) Warning, couldn't open module fbdev
+[    22.621] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    22.621] (II) LoadModule: "vesa"
+[    22.621] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    22.622] (II) Module vesa: vendor="X.Org Foundation"
+[    22.622] 	compiled for 1.20.9, module version = 2.5.0
+[    22.622] 	Module class: X.Org Video Driver
+[    22.622] 	ABI class: X.Org Video Driver, version 24.1
+[    22.622] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[    22.622] (II) intel: Driver for Intel(R) HD Graphics
+[    22.622] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[    22.622] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[    22.622] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    22.622] (II) VESA: driver for VESA chipsets: vesa
+[    22.622] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    22.623] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20200917
+[    22.623] (II) intel(0): SNA compiled from 2.99.917-916-g31486f40
+[    22.647] (WW) Falling back to old probe method for modesetting
+[    22.647] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    22.648] (--) intel(0): gen9 engineering sample
+[    22.648] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 2 threads
+[    22.648] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    22.648] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[    22.649] (==) intel(0): RGB weight 888
+[    22.649] (==) intel(0): Default visual is TrueColor
+[    22.650] (II) intel(0): Output eDP1 has no monitor section
+[    22.650] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output eDP1
+[    22.651] (II) intel(0): Enabled output eDP1
+[    22.651] (II) intel(0): Output HDMI1 has no monitor section
+[    22.651] (II) intel(0): Enabled output HDMI1
+[    22.651] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[    22.651] (II) intel(0): Output VIRTUAL1 has no monitor section
+[    22.651] (II) intel(0): Enabled output VIRTUAL1
+[    22.651] (--) intel(0): Output eDP1 using initial mode 1920x1080 on pipe 0
+[    22.651] (--) intel(0): Output HDMI1 using initial mode 1360x768 on pipe 1
+[    22.652] (==) intel(0): TearFree enabled
+[    22.652] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[    22.652] (==) intel(0): DPI set to (96, 96)
+[    22.652] (II) Loading sub module "dri3"
+[    22.652] (II) LoadModule: "dri3"
+[    22.652] (II) Module "dri3" already built-in
+[    22.652] (II) Loading sub module "dri2"
+[    22.652] (II) LoadModule: "dri2"
+[    22.652] (II) Module "dri2" already built-in
+[    22.652] (II) Loading sub module "present"
+[    22.652] (II) LoadModule: "present"
+[    22.652] (II) Module "present" already built-in
+[    22.652] (II) UnloadModule: "modesetting"
+[    22.652] (II) Unloading modesetting
+[    22.652] (II) UnloadModule: "vesa"
+[    22.652] (II) Unloading vesa
+[    22.655] (II) intel(0): SNA initialized with Kabylake (gen9) backend
+[    22.655] (==) intel(0): Backing store enabled
+[    22.655] (==) intel(0): Silken mouse disabled
+[    22.655] (II) intel(0): HW Cursor enabled
+[    22.656] (==) intel(0): DPMS enabled
+[    22.656] (==) intel(0): Display hotplug detection enabled
+[    22.657] (II) intel(0): [DRI2] Setup complete
+[    22.657] (II) intel(0): [DRI2]   DRI driver: i965
+[    22.657] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[    22.657] (II) intel(0): direct rendering: DRI2 DRI3 enabled
+[    22.657] (II) intel(0): hardware support for Present enabled
+[    22.657] (II) Initializing extension Generic Event Extension
+[    22.657] (II) Initializing extension SHAPE
+[    22.657] (II) Initializing extension MIT-SHM
+[    22.657] (II) Initializing extension XInputExtension
+[    22.658] (II) Initializing extension XTEST
+[    22.658] (II) Initializing extension BIG-REQUESTS
+[    22.658] (II) Initializing extension SYNC
+[    22.658] (II) Initializing extension XKEYBOARD
+[    22.658] (II) Initializing extension XC-MISC
+[    22.658] (II) Initializing extension SECURITY
+[    22.658] (II) Initializing extension XFIXES
+[    22.658] (II) Initializing extension RENDER
+[    22.658] (II) Initializing extension RANDR
+[    22.658] (II) Initializing extension COMPOSITE
+[    22.658] (II) Initializing extension DAMAGE
+[    22.658] (II) Initializing extension MIT-SCREEN-SAVER
+[    22.658] (II) Initializing extension DOUBLE-BUFFER
+[    22.658] (II) Initializing extension RECORD
+[    22.658] (II) Initializing extension DPMS
+[    22.658] (II) Initializing extension Present
+[    22.658] (II) Initializing extension DRI3
+[    22.658] (II) Initializing extension X-Resource
+[    22.658] (II) Initializing extension XVideo
+[    22.658] (II) Initializing extension XVideo-MotionCompensation
+[    22.658] (II) Initializing extension GLX
+[    22.703] (II) AIGLX: Loaded and initialized i965
+[    22.703] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    22.703] (II) Initializing extension XFree86-VidModeExtension
+[    22.703] (II) Initializing extension XFree86-DGA
+[    22.703] (II) Initializing extension XFree86-DRI
+[    22.703] (II) Initializing extension DRI2
+[    22.709] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[    22.722] (II) intel(0): switch to mode 1360x768@60.0 on HDMI1 using pipe 1, position (0, 0), rotation normal, reflection none
+[    22.730] (II) intel(0): Setting screen physical size to 508 x 285
+[    22.800] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    22.800] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    22.800] (II) LoadModule: "libinput"
+[    22.801] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    22.802] (II) Module libinput: vendor="X.Org Foundation"
+[    22.802] 	compiled for 1.20.11, module version = 1.1.0
+[    22.802] 	Module class: X.Org XInput Driver
+[    22.802] 	ABI class: X.Org XInput driver, version 24.1
+[    22.802] (II) Using input driver 'libinput' for 'Power Button'
+[    22.803] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 17 paused 0
+[    22.803] (**) Power Button: always reports core events
+[    22.803] (**) Option "Device" "/dev/input/event2"
+[    22.803] (**) Option "_source" "server/udev"
+[    22.804] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    22.804] (II) event2  - Power Button: device is a keyboard
+[    22.804] (II) event2  - Power Button: device removed
+[    22.804] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[    22.804] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    22.805] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    22.805] (II) event2  - Power Button: device is a keyboard
+[    22.805] (II) config/udev: Adding input device Video Bus (/dev/input/event18)
+[    22.805] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    22.805] (II) Using input driver 'libinput' for 'Video Bus'
+[    22.806] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 20 paused 0
+[    22.806] (**) Video Bus: always reports core events
+[    22.806] (**) Option "Device" "/dev/input/event18"
+[    22.806] (**) Option "_source" "server/udev"
+[    22.807] (II) event18 - Video Bus: is tagged by udev as: Keyboard
+[    22.807] (II) event18 - Video Bus: device is a keyboard
+[    22.807] (II) event18 - Video Bus: device removed
+[    22.807] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input22/event18"
+[    22.807] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    22.807] (II) event18 - Video Bus: is tagged by udev as: Keyboard
+[    22.807] (II) event18 - Video Bus: device is a keyboard
+[    22.808] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    22.808] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    22.808] (II) Using input driver 'libinput' for 'Power Button'
+[    22.809] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 21 paused 0
+[    22.809] (**) Power Button: always reports core events
+[    22.809] (**) Option "Device" "/dev/input/event1"
+[    22.809] (**) Option "_source" "server/udev"
+[    22.809] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    22.809] (II) event1  - Power Button: device is a keyboard
+[    22.809] (II) event1  - Power Button: device removed
+[    22.809] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    22.809] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    22.810] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    22.810] (II) event1  - Power Button: device is a keyboard
+[    22.810] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    22.810] (II) No input driver specified, ignoring this device.
+[    22.810] (II) This device may have been added with another device file.
+[    22.811] (II) config/udev: Adding input device HID 1bcf:08a0 Consumer Control (/dev/input/event9)
+[    22.811] (**) HID 1bcf:08a0 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    22.811] (II) Using input driver 'libinput' for 'HID 1bcf:08a0 Consumer Control'
+[    22.812] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 22 paused 0
+[    22.812] (**) HID 1bcf:08a0 Consumer Control: always reports core events
+[    22.812] (**) Option "Device" "/dev/input/event9"
+[    22.812] (**) Option "_source" "server/udev"
+[    22.813] (II) event9  - HID 1bcf:08a0 Consumer Control: is tagged by udev as: Keyboard
+[    22.813] (II) event9  - HID 1bcf:08a0 Consumer Control: device is a keyboard
+[    22.813] (II) event9  - HID 1bcf:08a0 Consumer Control: device removed
+[    22.813] (II) libinput: HID 1bcf:08a0 Consumer Control: needs a virtual subdevice
+[    22.813] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:1BCF:08A0.0001/input/input10/event9"
+[    22.813] (II) XINPUT: Adding extended input device "HID 1bcf:08a0 Consumer Control" (type: MOUSE, id 9)
+[    22.813] (**) Option "AccelerationScheme" "none"
+[    22.813] (**) HID 1bcf:08a0 Consumer Control: (accel) selected scheme none/0
+[    22.813] (**) HID 1bcf:08a0 Consumer Control: (accel) acceleration factor: 2.000
+[    22.813] (**) HID 1bcf:08a0 Consumer Control: (accel) acceleration threshold: 4
+[    22.814] (II) event9  - HID 1bcf:08a0 Consumer Control: is tagged by udev as: Keyboard
+[    22.814] (II) event9  - HID 1bcf:08a0 Consumer Control: device is a keyboard
+[    22.815] (II) config/udev: Adding input device HID 1bcf:08a0 Mouse (/dev/input/event7)
+[    22.815] (**) HID 1bcf:08a0 Mouse: Applying InputClass "libinput pointer catchall"
+[    22.815] (II) Using input driver 'libinput' for 'HID 1bcf:08a0 Mouse'
+[    22.815] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 23 paused 0
+[    22.815] (**) HID 1bcf:08a0 Mouse: always reports core events
+[    22.815] (**) Option "Device" "/dev/input/event7"
+[    22.815] (**) Option "_source" "server/udev"
+[    22.816] (II) event7  - HID 1bcf:08a0 Mouse: is tagged by udev as: Mouse
+[    22.816] (II) event7  - HID 1bcf:08a0 Mouse: device is a pointer
+[    22.817] (II) event7  - HID 1bcf:08a0 Mouse: device removed
+[    22.817] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:1BCF:08A0.0001/input/input8/event7"
+[    22.817] (II) XINPUT: Adding extended input device "HID 1bcf:08a0 Mouse" (type: MOUSE, id 10)
+[    22.817] (**) Option "AccelerationScheme" "none"
+[    22.817] (**) HID 1bcf:08a0 Mouse: (accel) selected scheme none/0
+[    22.817] (**) HID 1bcf:08a0 Mouse: (accel) acceleration factor: 2.000
+[    22.817] (**) HID 1bcf:08a0 Mouse: (accel) acceleration threshold: 4
+[    22.818] (II) event7  - HID 1bcf:08a0 Mouse: is tagged by udev as: Mouse
+[    22.818] (II) event7  - HID 1bcf:08a0 Mouse: device is a pointer
+[    22.818] (II) config/udev: Adding input device HID 1bcf:08a0 Mouse (/dev/input/mouse0)
+[    22.818] (II) No input driver specified, ignoring this device.
+[    22.818] (II) This device may have been added with another device file.
+[    22.819] (II) config/udev: Adding input device HID 1bcf:08a0 Keyboard (/dev/input/event8)
+[    22.819] (**) HID 1bcf:08a0 Keyboard: Applying InputClass "libinput keyboard catchall"
+[    22.819] (II) Using input driver 'libinput' for 'HID 1bcf:08a0 Keyboard'
+[    22.819] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 24 paused 0
+[    22.819] (**) HID 1bcf:08a0 Keyboard: always reports core events
+[    22.819] (**) Option "Device" "/dev/input/event8"
+[    22.819] (**) Option "_source" "server/udev"
+[    22.820] (II) event8  - HID 1bcf:08a0 Keyboard: is tagged by udev as: Keyboard
+[    22.820] (II) event8  - HID 1bcf:08a0 Keyboard: device is a keyboard
+[    22.821] (II) event8  - HID 1bcf:08a0 Keyboard: device removed
+[    22.821] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:1BCF:08A0.0001/input/input9/event8"
+[    22.821] (II) XINPUT: Adding extended input device "HID 1bcf:08a0 Keyboard" (type: KEYBOARD, id 11)
+[    22.822] (II) event8  - HID 1bcf:08a0 Keyboard: is tagged by udev as: Keyboard
+[    22.822] (II) event8  - HID 1bcf:08a0 Keyboard: device is a keyboard
+[    22.822] (II) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event10)
+[    22.822] (**) SEMICO USB Keyboard: Applying InputClass "libinput keyboard catchall"
+[    22.822] (II) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[    22.823] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 25 paused 0
+[    22.823] (**) SEMICO USB Keyboard: always reports core events
+[    22.823] (**) Option "Device" "/dev/input/event10"
+[    22.823] (**) Option "_source" "server/udev"
+[    22.824] (II) event10 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[    22.824] (II) event10 - SEMICO USB Keyboard: device is a keyboard
+[    22.824] (II) event10 - SEMICO USB Keyboard: device removed
+[    22.824] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:1A2C:4C5E.0002/input/input11/event10"
+[    22.824] (II) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 12)
+[    22.826] (II) event10 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[    22.826] (II) event10 - SEMICO USB Keyboard: device is a keyboard
+[    22.826] (II) config/udev: Adding input device SEMICO USB Keyboard Consumer Control (/dev/input/event15)
+[    22.826] (**) SEMICO USB Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    22.826] (II) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[    22.827] (II) systemd-logind: got fd for /dev/input/event15 13:79 fd 26 paused 0
+[    22.827] (**) SEMICO USB Keyboard Consumer Control: always reports core events
+[    22.827] (**) Option "Device" "/dev/input/event15"
+[    22.827] (**) Option "_source" "server/udev"
+[    22.828] (II) event15 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    22.828] (II) event15 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[    22.828] (II) event15 - SEMICO USB Keyboard Consumer Control: device removed
+[    22.828] (II) libinput: SEMICO USB Keyboard Consumer Control: needs a virtual subdevice
+[    22.828] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:1A2C:4C5E.0004/input/input18/event15"
+[    22.828] (II) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: MOUSE, id 13)
+[    22.828] (**) Option "AccelerationScheme" "none"
+[    22.828] (**) SEMICO USB Keyboard Consumer Control: (accel) selected scheme none/0
+[    22.828] (**) SEMICO USB Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[    22.828] (**) SEMICO USB Keyboard Consumer Control: (accel) acceleration threshold: 4
+[    22.829] (II) event15 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    22.830] (II) event15 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[    22.830] (II) config/udev: Adding input device SEMICO USB Keyboard System Control (/dev/input/event16)
+[    22.830] (**) SEMICO USB Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[    22.830] (II) Using input driver 'libinput' for 'SEMICO USB Keyboard System Control'
+[    22.831] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 27 paused 0
+[    22.831] (**) SEMICO USB Keyboard System Control: always reports core events
+[    22.831] (**) Option "Device" "/dev/input/event16"
+[    22.831] (**) Option "_source" "server/udev"
+[    22.832] (II) event16 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[    22.832] (II) event16 - SEMICO USB Keyboard System Control: device is a keyboard
+[    22.832] (II) event16 - SEMICO USB Keyboard System Control: device removed
+[    22.832] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:1A2C:4C5E.0004/input/input19/event16"
+[    22.832] (II) XINPUT: Adding extended input device "SEMICO USB Keyboard System Control" (type: KEYBOARD, id 14)
+[    22.833] (II) event16 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[    22.833] (II) event16 - SEMICO USB Keyboard System Control: device is a keyboard
+[    22.834] (II) config/udev: Adding input device SEMICO USB Keyboard (/dev/input/event17)
+[    22.834] (**) SEMICO USB Keyboard: Applying InputClass "libinput keyboard catchall"
+[    22.834] (II) Using input driver 'libinput' for 'SEMICO USB Keyboard'
+[    22.834] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 28 paused 0
+[    22.834] (**) SEMICO USB Keyboard: always reports core events
+[    22.834] (**) Option "Device" "/dev/input/event17"
+[    22.834] (**) Option "_source" "server/udev"
+[    22.835] (II) event17 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[    22.835] (II) event17 - SEMICO USB Keyboard: device is a keyboard
+[    22.835] (II) event17 - SEMICO USB Keyboard: device removed
+[    22.836] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:1A2C:4C5E.0004/input/input21/event17"
+[    22.836] (II) XINPUT: Adding extended input device "SEMICO USB Keyboard" (type: KEYBOARD, id 15)
+[    22.837] (II) event17 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[    22.837] (II) event17 - SEMICO USB Keyboard: device is a keyboard
+[    22.837] (II) config/udev: Adding input device HP Wide Vision HD Camera: HP Wi (/dev/input/event11)
+[    22.837] (**) HP Wide Vision HD Camera: HP Wi: Applying InputClass "libinput keyboard catchall"
+[    22.837] (II) Using input driver 'libinput' for 'HP Wide Vision HD Camera: HP Wi'
+[    22.838] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 29 paused 0
+[    22.838] (**) HP Wide Vision HD Camera: HP Wi: always reports core events
+[    22.838] (**) Option "Device" "/dev/input/event11"
+[    22.838] (**) Option "_source" "server/udev"
+[    22.839] (II) event11 - HP Wide Vision HD Camera: HP Wi: is tagged by udev as: Keyboard
+[    22.839] (II) event11 - HP Wide Vision HD Camera: HP Wi: device is a keyboard
+[    22.839] (II) event11 - HP Wide Vision HD Camera: HP Wi: device removed
+[    22.839] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/input/input26/event11"
+[    22.839] (II) XINPUT: Adding extended input device "HP Wide Vision HD Camera: HP Wi" (type: KEYBOARD, id 16)
+[    22.840] (II) event11 - HP Wide Vision HD Camera: HP Wi: is tagged by udev as: Keyboard
+[    22.840] (II) event11 - HP Wide Vision HD Camera: HP Wi: device is a keyboard
+[    22.841] (II) config/udev: Adding input device ELAN2514:00 04F3:262C (/dev/input/event13)
+[    22.841] (**) ELAN2514:00 04F3:262C: Applying InputClass "libinput touchscreen catchall"
+[    22.841] (II) Using input driver 'libinput' for 'ELAN2514:00 04F3:262C'
+[    22.841] (II) systemd-logind: got fd for /dev/input/event13 13:77 fd 30 paused 0
+[    22.841] (**) ELAN2514:00 04F3:262C: always reports core events
+[    22.841] (**) Option "Device" "/dev/input/event13"
+[    22.841] (**) Option "_source" "server/udev"
+[    22.842] (II) event13 - ELAN2514:00 04F3:262C: is tagged by udev as: Touchscreen
+[    22.842] (II) event13 - ELAN2514:00 04F3:262C: device is a touch device
+[    22.842] (II) event13 - ELAN2514:00 04F3:262C: device removed
+[    22.842] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-ELAN2514:00/0018:04F3:262C.0003/input/input27/event13"
+[    22.842] (II) XINPUT: Adding extended input device "ELAN2514:00 04F3:262C" (type: TOUCHSCREEN, id 17)
+[    22.842] (**) Option "AccelerationScheme" "none"
+[    22.842] (**) ELAN2514:00 04F3:262C: (accel) selected scheme none/0
+[    22.842] (**) ELAN2514:00 04F3:262C: (accel) acceleration factor: 2.000
+[    22.842] (**) ELAN2514:00 04F3:262C: (accel) acceleration threshold: 4
+[    22.843] (II) event13 - ELAN2514:00 04F3:262C: is tagged by udev as: Touchscreen
+[    22.844] (II) event13 - ELAN2514:00 04F3:262C: device is a touch device
+[    22.844] (II) config/udev: Adding input device ELAN2514:00 04F3:262C (/dev/input/mouse1)
+[    22.844] (II) No input driver specified, ignoring this device.
+[    22.844] (II) This device may have been added with another device file.
+[    22.845] (II) config/udev: Adding input device ELAN2514:00 04F3:262C UNKNOWN (/dev/input/event14)
+[    22.845] (II) No input driver specified, ignoring this device.
+[    22.845] (II) This device may have been added with another device file.
+[    22.845] (II) config/udev: Adding input device ELAN2514:00 04F3:262C UNKNOWN (/dev/input/event21)
+[    22.845] (II) No input driver specified, ignoring this device.
+[    22.845] (II) This device may have been added with another device file.
+[    22.845] (II) config/udev: Adding input device ELAN2514:00 04F3:262C Stylus (/dev/input/event22)
+[    22.845] (**) ELAN2514:00 04F3:262C Stylus: Applying InputClass "libinput tablet catchall"
+[    22.845] (II) Using input driver 'libinput' for 'ELAN2514:00 04F3:262C Stylus'
+[    22.846] (II) systemd-logind: got fd for /dev/input/event22 13:86 fd 31 paused 0
+[    22.846] (**) ELAN2514:00 04F3:262C Stylus: always reports core events
+[    22.846] (**) Option "Device" "/dev/input/event22"
+[    22.846] (**) Option "_source" "server/udev"
+[    22.847] (II) event22 - ELAN2514:00 04F3:262C Stylus: is tagged by udev as: Tablet
+[    22.855] (II) event22 - ELAN2514:00 04F3:262C Stylus: tablet 'ELAN2514:00 04F3:262C Stylus' unknown to libwacom
+[    22.855] (II) event22 - ELAN2514:00 04F3:262C Stylus: device is a tablet
+[    22.855] (II) event22 - ELAN2514:00 04F3:262C Stylus: device removed
+[    22.855] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-1/i2c-ELAN2514:00/0018:04F3:262C.0003/input/input30/event22"
+[    22.855] (II) XINPUT: Adding extended input device "ELAN2514:00 04F3:262C Stylus" (type: TABLET, id 18)
+[    22.856] (II) event22 - ELAN2514:00 04F3:262C Stylus: is tagged by udev as: Tablet
+[    22.856] (II) event22 - ELAN2514:00 04F3:262C Stylus: tablet 'ELAN2514:00 04F3:262C Stylus' unknown to libwacom
+[    22.856] (II) event22 - ELAN2514:00 04F3:262C Stylus: device is a tablet
+[    22.857] (II) config/udev: Adding input device ELAN2514:00 04F3:262C Stylus (/dev/input/mouse2)
+[    22.857] (II) No input driver specified, ignoring this device.
+[    22.857] (II) This device may have been added with another device file.
+[    22.857] (II) config/udev: Adding input device Intel Virtual Button driver (/dev/input/event5)
+[    22.857] (**) Intel Virtual Button driver: Applying InputClass "libinput keyboard catchall"
+[    22.857] (II) Using input driver 'libinput' for 'Intel Virtual Button driver'
+[    22.858] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 33 paused 0
+[    22.858] (**) Intel Virtual Button driver: always reports core events
+[    22.858] (**) Option "Device" "/dev/input/event5"
+[    22.858] (**) Option "_source" "server/udev"
+[    22.858] (II) event5  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[    22.858] (II) event5  - Intel Virtual Button driver: device is a keyboard
+[    22.859] (II) event5  - Intel Virtual Button driver: device is a switch device
+[    22.859] (II) event5  - Intel Virtual Button driver: device removed
+[    22.859] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:01/INT33D6:01/input/input6/event5"
+[    22.859] (II) XINPUT: Adding extended input device "Intel Virtual Button driver" (type: KEYBOARD, id 19)
+[    22.859] (II) event5  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[    22.859] (II) event5  - Intel Virtual Button driver: device is a keyboard
+[    22.860] (II) event5  - Intel Virtual Button driver: device is a switch device
+[    22.860] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event23)
+[    22.860] (II) No input driver specified, ignoring this device.
+[    22.860] (II) This device may have been added with another device file.
+[    22.860] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event24)
+[    22.860] (II) No input driver specified, ignoring this device.
+[    22.860] (II) This device may have been added with another device file.
+[    22.860] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event25)
+[    22.860] (II) No input driver specified, ignoring this device.
+[    22.860] (II) This device may have been added with another device file.
+[    22.861] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event26)
+[    22.861] (II) No input driver specified, ignoring this device.
+[    22.861] (II) This device may have been added with another device file.
+[    22.861] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event27)
+[    22.861] (II) No input driver specified, ignoring this device.
+[    22.861] (II) This device may have been added with another device file.
+[    22.861] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event28)
+[    22.861] (II) No input driver specified, ignoring this device.
+[    22.861] (II) This device may have been added with another device file.
+[    22.861] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event29)
+[    22.861] (II) No input driver specified, ignoring this device.
+[    22.861] (II) This device may have been added with another device file.
+[    22.862] (II) config/udev: Adding input device Intel Virtual Button driver (/dev/input/event6)
+[    22.862] (**) Intel Virtual Button driver: Applying InputClass "libinput keyboard catchall"
+[    22.862] (II) Using input driver 'libinput' for 'Intel Virtual Button driver'
+[    22.862] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 34 paused 0
+[    22.862] (**) Intel Virtual Button driver: always reports core events
+[    22.862] (**) Option "Device" "/dev/input/event6"
+[    22.862] (**) Option "_source" "server/udev"
+[    22.863] (II) event6  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[    22.863] (II) event6  - Intel Virtual Button driver: device is a keyboard
+[    22.863] (II) event6  - Intel Virtual Button driver: device is a switch device
+[    22.863] (II) event6  - Intel Virtual Button driver: device removed
+[    22.863] (**) Option "config_info" "udev:/sys/devices/platform/INT33D6:00/input/input7/event6"
+[    22.863] (II) XINPUT: Adding extended input device "Intel Virtual Button driver" (type: KEYBOARD, id 20)
+[    22.864] (II) event6  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[    22.864] (II) event6  - Intel Virtual Button driver: device is a keyboard
+[    22.864] (II) event6  - Intel Virtual Button driver: device is a switch device
+[    22.864] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[    22.864] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    22.864] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    22.865] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 35 paused 0
+[    22.865] (**) AT Translated Set 2 keyboard: always reports core events
+[    22.865] (**) Option "Device" "/dev/input/event3"
+[    22.865] (**) Option "_source" "server/udev"
+[    22.866] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    22.866] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    22.867] (II) event3  - AT Translated Set 2 keyboard: device removed
+[    22.867] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[    22.867] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 21)
+[    22.868] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    22.868] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    22.869] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event20)
+[    22.869] (**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
+[    22.869] (II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
+[    22.870] (II) systemd-logind: got fd for /dev/input/event20 13:84 fd 36 paused 0
+[    22.870] (**) SynPS/2 Synaptics TouchPad: always reports core events
+[    22.870] (**) Option "Device" "/dev/input/event20"
+[    22.870] (**) Option "_source" "server/udev"
+[    22.871] (II) event20 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[    22.871] (II) event20 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[    22.872] (II) event20 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[    22.872] (II) event20 - SynPS/2 Synaptics TouchPad: device removed
+[    22.873] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input24/event20"
+[    22.873] (II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 22)
+[    22.873] (**) Option "AccelerationScheme" "none"
+[    22.873] (**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
+[    22.873] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
+[    22.873] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
+[    22.874] (II) event20 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[    22.874] (II) event20 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[    22.875] (II) event20 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[    22.875] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse3)
+[    22.875] (II) No input driver specified, ignoring this device.
+[    22.875] (II) This device may have been added with another device file.
+[    22.876] (II) config/udev: Adding input device PC Speaker (/dev/input/event19)
+[    22.876] (II) No input driver specified, ignoring this device.
+[    22.876] (II) This device may have been added with another device file.
+[    22.878] (II) config/udev: Adding input device HP WMI hotkeys (/dev/input/event12)
+[    22.878] (**) HP WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    22.878] (II) Using input driver 'libinput' for 'HP WMI hotkeys'
+[    22.878] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 37 paused 0
+[    22.878] (**) HP WMI hotkeys: always reports core events
+[    22.878] (**) Option "Device" "/dev/input/event12"
+[    22.878] (**) Option "_source" "server/udev"
+[    22.879] (II) event12 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[    22.879] (II) event12 - HP WMI hotkeys: device is a keyboard
+[    22.879] (II) event12 - HP WMI hotkeys: device removed
+[    22.879] (**) Option "config_info" "udev:/sys/devices/virtual/input/input25/event12"
+[    22.879] (II) XINPUT: Adding extended input device "HP WMI hotkeys" (type: KEYBOARD, id 23)
+[    22.879] (II) event12 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[    22.879] (II) event12 - HP WMI hotkeys: device is a keyboard
+[    22.880] (II) config/udev: Adding input device HP Wireless hotkeys (/dev/input/event4)
+[    22.880] (**) HP Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
+[    22.880] (II) Using input driver 'libinput' for 'HP Wireless hotkeys'
+[    22.880] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 38 paused 0
+[    22.881] (**) HP Wireless hotkeys: always reports core events
+[    22.881] (**) Option "Device" "/dev/input/event4"
+[    22.881] (**) Option "_source" "server/udev"
+[    22.881] (II) event4  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[    22.881] (II) event4  - HP Wireless hotkeys: device is a keyboard
+[    22.881] (II) event4  - HP Wireless hotkeys: device removed
+[    22.881] (**) Option "config_info" "udev:/sys/devices/virtual/input/input5/event4"
+[    22.881] (II) XINPUT: Adding extended input device "HP Wireless hotkeys" (type: KEYBOARD, id 24)
+[    22.882] (II) event4  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[    22.882] (II) event4  - HP Wireless hotkeys: device is a keyboard
+[    22.914] (**) HID 1bcf:08a0 Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    22.914] (II) Using input driver 'libinput' for 'HID 1bcf:08a0 Consumer Control'
+[    22.914] (II) systemd-logind: returning pre-existing fd for /dev/input/event9 13:73
+[    22.914] (**) HID 1bcf:08a0 Consumer Control: always reports core events
+[    22.914] (**) Option "Device" "/dev/input/event9"
+[    22.914] (**) Option "_source" "_driver/libinput"
+[    22.914] (II) libinput: HID 1bcf:08a0 Consumer Control: is a virtual subdevice
+[    22.914] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:1BCF:08A0.0001/input/input10/event9"
+[    22.914] (II) XINPUT: Adding extended input device "HID 1bcf:08a0 Consumer Control" (type: KEYBOARD, id 25)
+[    22.915] (**) SEMICO USB Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    22.915] (II) Using input driver 'libinput' for 'SEMICO USB Keyboard Consumer Control'
+[    22.915] (II) systemd-logind: returning pre-existing fd for /dev/input/event15 13:79
+[    22.915] (**) SEMICO USB Keyboard Consumer Control: always reports core events
+[    22.915] (**) Option "Device" "/dev/input/event15"
+[    22.915] (**) Option "_source" "_driver/libinput"
+[    22.915] (II) libinput: SEMICO USB Keyboard Consumer Control: is a virtual subdevice
+[    22.915] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:1A2C:4C5E.0004/input/input18/event15"
+[    22.915] (II) XINPUT: Adding extended input device "SEMICO USB Keyboard Consumer Control" (type: KEYBOARD, id 26)
+[    24.657] (II) intel(0): EDID vendor "AUO", prod id 16701
+[    24.657] (II) intel(0): Printing DDC gathered Modelines:
+[    24.657] (II) intel(0): Modeline "1920x1080"x0.0  141.00  1920 1936 1952 2104  1080 1083 1097 1116 -hsync -vsync (67.0 kHz eP)
+[    24.657] (II) intel(0): Modeline "1920x1080"x0.0   94.00  1920 1936 1952 2104  1080 1083 1097 1116 -hsync -vsync (44.7 kHz e)
+[    24.684] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    29.001] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 44ms, your system is too slow
+[    29.134] (II) intel(0): resizing framebuffer to 3716x1080
+[    29.162] (II) intel(0): switch to mode 1360x768@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[   176.039] (EE) event7  - HID 1bcf:08a0 Mouse: client bug: event processing lagging behind by 22ms, your system is too slow
+[   185.960] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 33ms, your system is too slow
+[   643.645] (EE) event7  - HID 1bcf:08a0 Mouse: client bug: event processing lagging behind by 12ms, your system is too slow
+[   655.174] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 47ms, your system is too slow
+[   699.575] (EE) event7  - HID 1bcf:08a0 Mouse: client bug: event processing lagging behind by 14ms, your system is too slow
+[   730.727] (EE) event7  - HID 1bcf:08a0 Mouse: client bug: event processing lagging behind by 16ms, your system is too slow
+[   764.869] (EE) event7  - HID 1bcf:08a0 Mouse: client bug: event processing lagging behind by 18ms, your system is too slow
+[   764.869] (EE) event7  - HID 1bcf:08a0 Mouse: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[   768.011] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 44ms, your system is too slow
+[  1172.382] (EE) client bug: timer event7 debounce short: scheduled expiry is in the past (-2ms), your system is too slow
+[  1729.123] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 26ms, your system is too slow
+[  1729.123] (EE) event10 - SEMICO USB Keyboard: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[  2233.157] (**) Option "fd" "17"
+[  2233.157] (II) event2  - Power Button: device removed
+[  2233.157] (**) Option "fd" "20"
+[  2233.157] (II) event18 - Video Bus: device removed
+[  2233.157] (**) Option "fd" "21"
+[  2233.157] (II) event1  - Power Button: device removed
+[  2233.157] (**) Option "fd" "22"
+[  2233.157] (**) Option "fd" "23"
+[  2233.157] (II) event7  - HID 1bcf:08a0 Mouse: device removed
+[  2233.158] (**) Option "fd" "24"
+[  2233.158] (II) event8  - HID 1bcf:08a0 Keyboard: device removed
+[  2233.158] (**) Option "fd" "25"
+[  2233.158] (II) event10 - SEMICO USB Keyboard: device removed
+[  2233.158] (**) Option "fd" "26"
+[  2233.158] (**) Option "fd" "27"
+[  2233.158] (II) event16 - SEMICO USB Keyboard System Control: device removed
+[  2233.158] (**) Option "fd" "28"
+[  2233.158] (II) event17 - SEMICO USB Keyboard: device removed
+[  2233.158] (**) Option "fd" "29"
+[  2233.158] (II) event11 - HP Wide Vision HD Camera: HP Wi: device removed
+[  2233.158] (**) Option "fd" "30"
+[  2233.158] (II) event13 - ELAN2514:00 04F3:262C: device removed
+[  2233.158] (**) Option "fd" "31"
+[  2233.158] (II) event22 - ELAN2514:00 04F3:262C Stylus: device removed
+[  2233.158] (**) Option "fd" "33"
+[  2233.158] (II) event5  - Intel Virtual Button driver: device removed
+[  2233.158] (**) Option "fd" "34"
+[  2233.158] (II) event6  - Intel Virtual Button driver: device removed
+[  2233.158] (**) Option "fd" "35"
+[  2233.158] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  2233.158] (**) Option "fd" "36"
+[  2233.158] (II) event20 - SynPS/2 Synaptics TouchPad: device removed
+[  2233.159] (**) Option "fd" "37"
+[  2233.159] (II) event12 - HP WMI hotkeys: device removed
+[  2233.159] (**) Option "fd" "38"
+[  2233.159] (II) event4  - HP Wireless hotkeys: device removed
+[  2233.159] (**) Option "fd" "22"
+[  2233.159] (II) event9  - HID 1bcf:08a0 Consumer Control: device removed
+[  2233.159] (**) Option "fd" "26"
+[  2233.159] (II) event15 - SEMICO USB Keyboard Consumer Control: device removed
+[  2233.159] (II) AIGLX: Suspending AIGLX clients for VT switch
+[  2233.231] (II) systemd-logind: got pause for 13:79
+[  2233.231] (II) systemd-logind: got pause for 13:73
+[  2233.231] (II) systemd-logind: got pause for 13:82
+[  2233.231] (II) systemd-logind: got pause for 13:77
+[  2233.231] (II) systemd-logind: got pause for 13:67
+[  2233.231] (II) systemd-logind: got pause for 13:71
+[  2233.232] (II) systemd-logind: got pause for 13:81
+[  2233.232] (II) systemd-logind: got pause for 13:69
+[  2233.232] (II) systemd-logind: got pause for 13:65
+[  2233.232] (II) systemd-logind: got pause for 13:84
+[  2233.232] (II) systemd-logind: got pause for 13:86
+[  2233.232] (II) systemd-logind: got pause for 13:70
+[  2233.232] (II) systemd-logind: got pause for 13:74
+[  2233.232] (II) systemd-logind: got pause for 13:66
+[  2233.232] (II) systemd-logind: got pause for 226:0
+[  2233.232] (II) systemd-logind: got pause for 13:75
+[  2233.232] (II) systemd-logind: got pause for 13:72
+[  2233.232] (II) systemd-logind: got pause for 13:76
+[  2233.232] (II) systemd-logind: got pause for 13:80
+[  2233.232] (II) systemd-logind: got pause for 13:68
+[  2538.027] (II) systemd-logind: got resume for 13:79
+[  2538.087] (II) systemd-logind: got resume for 13:73
+[  2538.127] (II) systemd-logind: got resume for 13:82
+[  2538.177] (II) systemd-logind: got resume for 13:77
+[  2538.227] (II) systemd-logind: got resume for 13:67
+[  2538.267] (II) systemd-logind: got resume for 13:71
+[  2538.327] (II) systemd-logind: got resume for 13:81
+[  2538.367] (II) systemd-logind: got resume for 13:69
+[  2538.407] (II) systemd-logind: got resume for 13:65
+[  2538.447] (II) systemd-logind: got resume for 13:84
+[  2538.507] (II) systemd-logind: got resume for 13:86
+[  2538.547] (II) systemd-logind: got resume for 13:70
+[  2538.607] (II) systemd-logind: got resume for 13:74
+[  2538.647] (II) systemd-logind: got resume for 13:66
+[  2538.647] (II) systemd-logind: got resume for 226:0
+[  2538.647] (II) AIGLX: Resuming AIGLX clients after VT switch
+[  2538.647] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[  2538.682] (II) intel(0): switch to mode 1360x768@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[  2538.739] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[  2538.757] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[  2538.757] (II) event2  - Power Button: device is a keyboard
+[  2538.757] (II) event18 - Video Bus: is tagged by udev as: Keyboard
+[  2538.758] (II) event18 - Video Bus: device is a keyboard
+[  2538.758] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  2538.758] (II) event1  - Power Button: device is a keyboard
+[  2538.760] (II) event9  - HID 1bcf:08a0 Consumer Control: is tagged by udev as: Keyboard
+[  2538.760] (II) event9  - HID 1bcf:08a0 Consumer Control: device is a keyboard
+[  2538.761] (II) event7  - HID 1bcf:08a0 Mouse: is tagged by udev as: Mouse
+[  2538.761] (II) event7  - HID 1bcf:08a0 Mouse: device is a pointer
+[  2538.762] (II) event10 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  2538.762] (II) event10 - SEMICO USB Keyboard: device is a keyboard
+[  2538.763] (II) event15 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[  2538.764] (II) event15 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[  2538.765] (II) event17 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  2538.765] (II) event17 - SEMICO USB Keyboard: device is a keyboard
+[  2538.766] (II) event13 - ELAN2514:00 04F3:262C: is tagged by udev as: Touchscreen
+[  2538.766] (II) event13 - ELAN2514:00 04F3:262C: device is a touch device
+[  2538.767] (II) event22 - ELAN2514:00 04F3:262C Stylus: is tagged by udev as: Tablet
+[  2538.768] (II) event22 - ELAN2514:00 04F3:262C Stylus: tablet 'ELAN2514:00 04F3:262C Stylus' unknown to libwacom
+[  2538.768] (II) event22 - ELAN2514:00 04F3:262C Stylus: device is a tablet
+[  2538.769] (II) event5  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[  2538.769] (II) event5  - Intel Virtual Button driver: device is a keyboard
+[  2538.769] (II) event5  - Intel Virtual Button driver: device is a switch device
+[  2538.769] (II) event6  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[  2538.769] (II) event6  - Intel Virtual Button driver: device is a keyboard
+[  2538.769] (II) event6  - Intel Virtual Button driver: device is a switch device
+[  2538.770] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  2538.770] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[  2538.772] (II) event20 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[  2538.773] (II) event20 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[  2538.774] (II) event20 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[  2538.774] (II) systemd-logind: got resume for 13:75
+[  2538.775] (II) event11 - HP Wide Vision HD Camera: HP Wi: is tagged by udev as: Keyboard
+[  2538.775] (II) event11 - HP Wide Vision HD Camera: HP Wi: device is a keyboard
+[  2538.775] (II) systemd-logind: got resume for 13:72
+[  2538.777] (II) event8  - HID 1bcf:08a0 Keyboard: is tagged by udev as: Keyboard
+[  2538.777] (II) event8  - HID 1bcf:08a0 Keyboard: device is a keyboard
+[  2538.797] (II) systemd-logind: got resume for 13:76
+[  2538.799] (II) event12 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[  2538.799] (II) event12 - HP WMI hotkeys: device is a keyboard
+[  2538.828] (II) systemd-logind: got resume for 13:80
+[  2538.830] (II) event16 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[  2538.830] (II) event16 - SEMICO USB Keyboard System Control: device is a keyboard
+[  2538.937] (II) systemd-logind: got resume for 13:68
+[  2538.938] (II) event4  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[  2538.938] (II) event4  - HP Wireless hotkeys: device is a keyboard
+[  2602.444] (**) Option "fd" "35"
+[  2602.445] (II) event2  - Power Button: device removed
+[  2602.445] (**) Option "fd" "22"
+[  2602.445] (II) event18 - Video Bus: device removed
+[  2602.445] (**) Option "fd" "28"
+[  2602.445] (II) event1  - Power Button: device removed
+[  2602.445] (**) Option "fd" "21"
+[  2602.445] (**) Option "fd" "25"
+[  2602.445] (II) event7  - HID 1bcf:08a0 Mouse: device removed
+[  2602.445] (**) Option "fd" "34"
+[  2602.445] (II) event8  - HID 1bcf:08a0 Keyboard: device removed
+[  2602.445] (**) Option "fd" "33"
+[  2602.445] (II) event10 - SEMICO USB Keyboard: device removed
+[  2602.445] (**) Option "fd" "20"
+[  2602.445] (**) Option "fd" "62"
+[  2602.445] (II) event16 - SEMICO USB Keyboard System Control: device removed
+[  2602.445] (**) Option "fd" "26"
+[  2602.445] (II) event17 - SEMICO USB Keyboard: device removed
+[  2602.445] (**) Option "fd" "37"
+[  2602.445] (II) event11 - HP Wide Vision HD Camera: HP Wi: device removed
+[  2602.445] (**) Option "fd" "23"
+[  2602.445] (II) event13 - ELAN2514:00 04F3:262C: device removed
+[  2602.445] (**) Option "fd" "30"
+[  2602.445] (II) event22 - ELAN2514:00 04F3:262C Stylus: device removed
+[  2602.445] (**) Option "fd" "27"
+[  2602.445] (II) event5  - Intel Virtual Button driver: device removed
+[  2602.446] (**) Option "fd" "31"
+[  2602.446] (II) event6  - Intel Virtual Button driver: device removed
+[  2602.446] (**) Option "fd" "24"
+[  2602.446] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  2602.446] (**) Option "fd" "29"
+[  2602.446] (II) event20 - SynPS/2 Synaptics TouchPad: device removed
+[  2602.446] (**) Option "fd" "38"
+[  2602.446] (II) event12 - HP WMI hotkeys: device removed
+[  2602.446] (**) Option "fd" "64"
+[  2602.446] (II) event4  - HP Wireless hotkeys: device removed
+[  2602.446] (**) Option "fd" "21"
+[  2602.446] (II) event9  - HID 1bcf:08a0 Consumer Control: device removed
+[  2602.446] (**) Option "fd" "20"
+[  2602.446] (II) event15 - SEMICO USB Keyboard Consumer Control: device removed
+[  2602.446] (II) AIGLX: Suspending AIGLX clients for VT switch
+[  2602.522] (II) systemd-logind: got pause for 13:79
+[  2602.522] (II) systemd-logind: got pause for 13:73
+[  2602.522] (II) systemd-logind: got pause for 13:82
+[  2602.522] (II) systemd-logind: got pause for 13:77
+[  2602.522] (II) systemd-logind: got pause for 13:67
+[  2602.522] (II) systemd-logind: got pause for 13:71
+[  2602.522] (II) systemd-logind: got pause for 13:81
+[  2602.522] (II) systemd-logind: got pause for 13:69
+[  2602.522] (II) systemd-logind: got pause for 13:65
+[  2602.522] (II) systemd-logind: got pause for 13:84
+[  2602.522] (II) systemd-logind: got pause for 13:86
+[  2602.522] (II) systemd-logind: got pause for 13:70
+[  2602.522] (II) systemd-logind: got pause for 13:74
+[  2602.522] (II) systemd-logind: got pause for 13:66
+[  2602.522] (II) systemd-logind: got pause for 226:0
+[  2602.522] (II) systemd-logind: got pause for 13:75
+[  2602.522] (II) systemd-logind: got pause for 13:72
+[  2602.522] (II) systemd-logind: got pause for 13:76
+[  2602.522] (II) systemd-logind: got pause for 13:80
+[  2602.522] (II) systemd-logind: got pause for 13:68
+[  2882.247] (II) systemd-logind: got resume for 13:79
+[  2882.356] (II) systemd-logind: got resume for 13:73
+[  2882.396] (II) systemd-logind: got resume for 13:82
+[  2882.446] (II) systemd-logind: got resume for 13:77
+[  2882.496] (II) systemd-logind: got resume for 13:67
+[  2882.536] (II) systemd-logind: got resume for 13:71
+[  2882.576] (II) systemd-logind: got resume for 13:81
+[  2882.626] (II) systemd-logind: got resume for 13:69
+[  2882.676] (II) systemd-logind: got resume for 13:65
+[  2882.716] (II) systemd-logind: got resume for 13:84
+[  2882.766] (II) systemd-logind: got resume for 13:86
+[  2882.806] (II) systemd-logind: got resume for 13:70
+[  2882.846] (II) systemd-logind: got resume for 13:74
+[  2882.896] (II) systemd-logind: got resume for 13:66
+[  2882.897] (II) systemd-logind: got resume for 226:0
+[  2882.897] (II) AIGLX: Resuming AIGLX clients after VT switch
+[  2882.897] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[  2882.934] (II) intel(0): switch to mode 1360x768@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[  2882.986] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[  2883.004] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[  2883.004] (II) event2  - Power Button: device is a keyboard
+[  2883.005] (II) event18 - Video Bus: is tagged by udev as: Keyboard
+[  2883.005] (II) event18 - Video Bus: device is a keyboard
+[  2883.006] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  2883.006] (II) event1  - Power Button: device is a keyboard
+[  2883.007] (II) event9  - HID 1bcf:08a0 Consumer Control: is tagged by udev as: Keyboard
+[  2883.007] (II) event9  - HID 1bcf:08a0 Consumer Control: device is a keyboard
+[  2883.008] (II) event7  - HID 1bcf:08a0 Mouse: is tagged by udev as: Mouse
+[  2883.009] (II) event7  - HID 1bcf:08a0 Mouse: device is a pointer
+[  2883.010] (II) event10 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  2883.010] (II) event10 - SEMICO USB Keyboard: device is a keyboard
+[  2883.011] (II) event15 - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[  2883.011] (II) event15 - SEMICO USB Keyboard Consumer Control: device is a keyboard
+[  2883.012] (II) event17 - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+[  2883.013] (II) event17 - SEMICO USB Keyboard: device is a keyboard
+[  2883.014] (II) event13 - ELAN2514:00 04F3:262C: is tagged by udev as: Touchscreen
+[  2883.014] (II) event13 - ELAN2514:00 04F3:262C: device is a touch device
+[  2883.015] (II) event22 - ELAN2514:00 04F3:262C Stylus: is tagged by udev as: Tablet
+[  2883.016] (II) event22 - ELAN2514:00 04F3:262C Stylus: tablet 'ELAN2514:00 04F3:262C Stylus' unknown to libwacom
+[  2883.016] (II) event22 - ELAN2514:00 04F3:262C Stylus: device is a tablet
+[  2883.016] (II) event5  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[  2883.016] (II) event5  - Intel Virtual Button driver: device is a keyboard
+[  2883.016] (II) event5  - Intel Virtual Button driver: device is a switch device
+[  2883.017] (II) event6  - Intel Virtual Button driver: is tagged by udev as: Keyboard Switch
+[  2883.017] (II) event6  - Intel Virtual Button driver: device is a keyboard
+[  2883.017] (II) event6  - Intel Virtual Button driver: device is a switch device
+[  2883.018] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  2883.018] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[  2883.020] (II) event20 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[  2883.020] (II) event20 - SynPS/2 Synaptics TouchPad: no resolution or size hints, assuming a size of 69x50mm
+[  2883.021] (II) event20 - SynPS/2 Synaptics TouchPad: device is a touchpad
+[  2883.022] (II) systemd-logind: got resume for 13:75
+[  2883.023] (II) event11 - HP Wide Vision HD Camera: HP Wi: is tagged by udev as: Keyboard
+[  2883.023] (II) event11 - HP Wide Vision HD Camera: HP Wi: device is a keyboard
+[  2883.023] (II) systemd-logind: got resume for 13:72
+[  2883.024] (II) event8  - HID 1bcf:08a0 Keyboard: is tagged by udev as: Keyboard
+[  2883.024] (II) event8  - HID 1bcf:08a0 Keyboard: device is a keyboard
+[  2883.057] (II) systemd-logind: got resume for 13:76
+[  2883.059] (II) event12 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[  2883.059] (II) event12 - HP WMI hotkeys: device is a keyboard
+[  2883.097] (II) systemd-logind: got resume for 13:80
+[  2883.098] (II) event16 - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+[  2883.098] (II) event16 - SEMICO USB Keyboard System Control: device is a keyboard
+[  2883.137] (II) systemd-logind: got resume for 13:68
+[  2883.138] (II) event4  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[  2883.139] (II) event4  - HP Wireless hotkeys: device is a keyboard
+[  3077.399] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 42ms, your system is too slow
+[  3206.689] (EE) event10 - SEMICO USB Keyboard: client bug: event processing lagging behind by 12ms, your system is too slow
+[  3434.330] (**) Option "fd" "35"
+[  3434.330] (II) event2  - Power Button: device removed
+[  3434.331] (**) Option "fd" "23"
+[  3434.331] (II) event18 - Video Bus: device removed
+[  3434.331] (**) Option "fd" "29"
+[  3434.331] (II) event1  - Power Button: device removed
+[  3434.331] (**) Option "fd" "22"
+[  3434.331] (**) Option "fd" "26"
+[  3434.331] (II) event7  - HID 1bcf:08a0 Mouse: device removed
+[  3434.331] (**) Option "fd" "34"
+[  3434.331] (II) event10 - SEMICO USB Keyboard: device removed
+[  3434.331] (**) Option "fd" "21"
+[  3434.331] (**) Option "fd" "27"
+[  3434.331] (II) event17 - SEMICO USB Keyboard: device removed
+[  3434.331] (**) Option "fd" "24"
+[  3434.331] (II) event13 - ELAN2514:00 04F3:262C: device removed
+[  3434.331] (**) Option "fd" "31"
+[  3434.331] (II) event22 - ELAN2514:00 04F3:262C Stylus: device removed
+[  3434.332] (**) Option "fd" "28"
+[  3434.332] (II) event5  - Intel Virtual Button driver: device removed
+[  3434.332] (**) Option "fd" "33"
+[  3434.332] (II) event6  - Intel Virtual Button driver: device removed
+[  3434.332] (**) Option "fd" "25"
+[  3434.332] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  3434.332] (**) Option "fd" "30"
+[  3434.332] (II) event20 - SynPS/2 Synaptics TouchPad: device removed
+[  3434.332] (**) Option "fd" "22"
+[  3434.332] (II) event9  - HID 1bcf:08a0 Consumer Control: device removed
+[  3434.332] (**) Option "fd" "21"
+[  3434.332] (II) event15 - SEMICO USB Keyboard Consumer Control: device removed
+[  3434.332] (**) Option "fd" "38"
+[  3434.332] (II) event11 - HP Wide Vision HD Camera: HP Wi: device removed
+[  3434.332] (**) Option "fd" "20"
+[  3434.332] (II) event8  - HID 1bcf:08a0 Keyboard: device removed
+[  3434.332] (**) Option "fd" "62"
+[  3434.332] (II) event12 - HP WMI hotkeys: device removed
+[  3434.332] (**) Option "fd" "64"
+[  3434.332] (II) event16 - SEMICO USB Keyboard System Control: device removed
+[  3434.332] (**) Option "fd" "65"
+[  3434.332] (II) event4  - HP Wireless hotkeys: device removed
+[  3434.332] (II) UnloadModule: "libinput"
+[  3434.333] (II) systemd-logind: releasing fd for 13:68
+[  3434.497] (II) UnloadModule: "libinput"
+[  3434.497] (II) systemd-logind: releasing fd for 13:80
+[  3434.547] (II) UnloadModule: "libinput"
+[  3434.547] (II) systemd-logind: releasing fd for 13:76
+[  3434.647] (II) UnloadModule: "libinput"
+[  3434.647] (II) systemd-logind: releasing fd for 13:72
+[  3434.727] (II) UnloadModule: "libinput"
+[  3434.727] (II) systemd-logind: releasing fd for 13:75
+[  3434.887] (II) UnloadModule: "libinput"
+[  3434.887] (II) systemd-logind: not releasing fd for 13:79, still in use
+[  3434.887] (II) UnloadModule: "libinput"
+[  3434.887] (II) systemd-logind: not releasing fd for 13:73, still in use
+[  3434.887] (II) UnloadModule: "libinput"
+[  3434.887] (II) systemd-logind: releasing fd for 13:84
+[  3434.997] (II) UnloadModule: "libinput"
+[  3434.997] (II) systemd-logind: releasing fd for 13:67
+[  3435.037] (II) UnloadModule: "libinput"
+[  3435.037] (II) systemd-logind: releasing fd for 13:70
+[  3435.077] (II) UnloadModule: "libinput"
+[  3435.077] (II) systemd-logind: releasing fd for 13:69
+[  3435.137] (II) UnloadModule: "libinput"
+[  3435.137] (II) systemd-logind: releasing fd for 13:86
+[  3435.217] (II) UnloadModule: "libinput"
+[  3435.217] (II) systemd-logind: releasing fd for 13:77
+[  3435.307] (II) UnloadModule: "libinput"
+[  3435.307] (II) systemd-logind: releasing fd for 13:81
+[  3435.347] (II) UnloadModule: "libinput"
+[  3435.347] (II) systemd-logind: releasing fd for 13:79
+[  3435.387] (II) UnloadModule: "libinput"
+[  3435.387] (II) systemd-logind: releasing fd for 13:74
+[  3435.427] (II) UnloadModule: "libinput"
+[  3435.427] (II) systemd-logind: releasing fd for 13:71
+[  3435.507] (II) UnloadModule: "libinput"
+[  3435.507] (II) systemd-logind: releasing fd for 13:73
+[  3435.547] (II) UnloadModule: "libinput"
+[  3435.547] (II) systemd-logind: releasing fd for 13:65
+[  3435.587] (II) UnloadModule: "libinput"
+[  3435.587] (II) systemd-logind: releasing fd for 13:82
+[  3435.668] (II) UnloadModule: "libinput"
+[  3435.668] (II) systemd-logind: releasing fd for 13:66
+[  3435.768] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[  3435.768] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[  3435.817] (II) Server terminated successfully (0). Closing log file.

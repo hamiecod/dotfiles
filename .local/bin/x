@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Wrapper to startx using custom file
+
+XINITRC=$HOME/.config/X11/xinitrc
+
+startx "$XINITRC"

@@ -1,0 +1,60 @@
+🎉 Initial commit
+⏪ Reverting changes
+🔀 Merging branches
+🙈 Adding or updating a .gitignore file
+👥 Adding contributor(s)
+👌 Updating code due to code review changes
+🔥 Removing code or files
+🚚 Moving or renaming files
+🍱 Adding or updating assets
+📄 Adding or updating license
+📦 Updating compiled files or packages
+💄 Updating the UI and style files
+🚧 Work in progress
+💩 Writing bad code that needs to be improved
+🔧 Changing configuration files
+🗃 Performing database related changes
+⚗ Experimenting new things
+🐳 Work about Docker
+🌐 Internationalization and localization
+💬 Updating text and literals
+📱 Working on responsive design
+✨ Introducing new features
+⚡️ Improving performance
+🎨 Improving structure / format of the code
+♿️ Improving accessibility
+🚸 Improving user experience / usability
+🔍 Improving SEO
+🐛 Fixing a bug
+🚑 Critical hotfix
+🔒 Fixing security issues
+💚 Fixing CI Build
+✏️ Fixing typos
+🍎 Fixing something on macOS
+🐧 Fixing something on Linux
+🏁 Fixing something on Windows
+🤖 Fixing something on Android
+🍏 Fixing something on iOS
+👽 Updating code due to external API changes
+💥 Introducing breaking changes
+♻️ Refactoring code
+🏗 Making architectural changes
+🔊 Adding logs
+🔇 Removing logs
+✅ Adding tests
+🤡 Mocking things
+🔖 Releasing / Version tags
+🚀 Deploying stuff
+📸 Adding or updating snapshots
+➕ Adding a dependency
+➖ Removing a dependency
+📌 Pinning dependencies to specific versions
+⬇️ Downgrading dependencies
+⬆️ Upgrading dependencies
+👷 Adding CI build system
+📈 Adding analytics or tracking code
+🚨 Removing linter warnings
+📝 Writing docs
+💡 Documenting source code
+🥚 Adding an easter egg
+🍻 Writing code drunkenly

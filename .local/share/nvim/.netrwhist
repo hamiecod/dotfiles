@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/etc/rc_keymaps'
+let g:netrw_dirhist_3='/etc'
+let g:netrw_dirhist_2='/home/hamiecod/.config/nvim/vim-plug'
+let g:netrw_dirhist_1='/home/hamiecod/.config/nvim'

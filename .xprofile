@@ -1,0 +1,2 @@
+xrandr --output HDMI1 --auto --scale 1.32 --right-of eDP1
+nitrogen --restore

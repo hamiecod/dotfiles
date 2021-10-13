@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = master
+[user]
+	email = arduinoleo88@gmail.com
+	name = DevHyperCoder
+[alias]
+	st = status
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret

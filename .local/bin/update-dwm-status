@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sleep 1m
+ls /tmp/dwm-status | entr -s 'xsetroot -name "$(cat /tmp/dwm-status)"'

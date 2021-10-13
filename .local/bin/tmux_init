@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# dmenu script to automate tmux window creation
+
+TMUX_INIT="$HOME/.local/share/tmux_init/"
+
+PROJ=$(du -a "$TMUX_INIT" | awk '{ print $2 }' | dmenu -l 40 -p "Choose project")
+
+`$PROJ`

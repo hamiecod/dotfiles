@@ -1,0 +1,912 @@
+[2021-06-06 12:59:06](src/backend.c:175):B:server state changed to 1
+[2021-06-06 12:59:06](src/backend.c:175):B:server state changed to 2
+[2021-06-06 12:59:06](src/backend.c:175):B:server state changed to 3
+[2021-06-06 12:59:06](src/backend.c:175):B:server state changed to 4
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-06-06 12:59:06](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-06-06 12:59:06](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-06-06 12:59:06](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-06-06 12:59:06](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-06-06 12:59:06](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-06-06 12:59:06](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-06-06 12:59:06](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-06-06 12:59:06](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-06-06 12:59:06](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-06-06 12:59:06](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-06-06 12:59:06](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-06-06 12:59:06](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-06-06 12:59:06](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-06-06 12:59:06](src/main.mm:83):D:0:Built-in Audio passed
+[2021-06-06 12:59:06](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-06-06 12:59:06](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-06-06 12:59:06](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-06-06 12:59:06](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-06-06 12:59:06](src/backend.c:202):B:7:Firefox appeared
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged7_1_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged7_1_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:100):M:muteChanged7_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:101):M:7:Firefox:Firefox received
+[2021-06-06 12:59:06](src/main.mm:83):D:7:Firefox passed
+[2021-06-06 12:59:06](src/widgets/widget.mm:43):F:7:Firefox posted
+[2021-06-06 12:59:06](src/widgets/widget.mm:159):F:7:Firefox options added
+[2021-06-06 12:59:06](src/middleware.m:141):M:volumeChanged7_1 observer added
+[2021-06-06 12:59:06](src/backend.c:202):B:10:Firefox appeared
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged10_1_0 observer added
+[2021-06-06 12:59:06](src/middleware.m:89):M:volumeChanged10_1_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:100):M:muteChanged10_1 observer added
+[2021-06-06 12:59:06](src/middleware.m:101):M:10:Firefox:Firefox received
+[2021-06-06 12:59:06](src/main.mm:83):D:10:Firefox passed
+[2021-06-06 12:59:06](src/widgets/widget.mm:43):F:10:Firefox posted
+[2021-06-06 12:59:06](src/widgets/widget.mm:159):F:10:Firefox options added
+[2021-06-06 12:59:06](src/middleware.m:141):M:volumeChanged10_1 observer added
+[2021-06-06 12:59:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:09](src/frontend.mm:112):F:reprinting TUI at 147x34
+[2021-06-06 12:59:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:18](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:29](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:29](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:30](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:30](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:30](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:30](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:30](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:31](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:32](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:32](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:32](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:32](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:33](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:33](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:33](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:33](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:33](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:34](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:34](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:37](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:39](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:40](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:40](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:41](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:44](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:45](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:46](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:47](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 12:59:47](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 13:22:25](src/backend.c:175):B:server state changed to 1
+[2021-06-06 13:22:25](src/backend.c:175):B:server state changed to 2
+[2021-06-06 13:22:25](src/backend.c:175):B:server state changed to 3
+[2021-06-06 13:22:25](src/backend.c:175):B:server state changed to 4
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-06-06 13:22:25](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-06-06 13:22:25](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-06-06 13:22:25](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-06-06 13:22:25](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-06-06 13:22:25](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-06-06 13:22:25](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-06-06 13:22:25](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-06-06 13:22:25](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-06-06 13:22:25](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-06-06 13:22:25](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-06-06 13:22:25](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-06-06 13:22:25](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-06-06 13:22:25](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-06-06 13:22:25](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-06-06 13:22:25](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-06-06 13:22:25](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-06-06 13:22:25](src/main.mm:83):D:0:Built-in Audio passed
+[2021-06-06 13:22:25](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-06-06 13:22:25](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-06-06 13:22:25](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-06-06 13:22:25](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-06-06 13:22:25](src/backend.c:202):B:17:Chromium appeared
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged17_1_0 observer added
+[2021-06-06 13:22:25](src/middleware.m:89):M:volumeChanged17_1_1 observer added
+[2021-06-06 13:22:25](src/middleware.m:100):M:muteChanged17_1 observer added
+[2021-06-06 13:22:25](src/middleware.m:101):M:17:Chromium:Chromium received
+[2021-06-06 13:22:25](src/main.mm:83):D:17:Chromium passed
+[2021-06-06 13:22:25](src/widgets/widget.mm:43):F:17:Chromium posted
+[2021-06-06 13:22:25](src/widgets/widget.mm:159):F:17:Chromium options added
+[2021-06-06 13:22:25](src/middleware.m:141):M:volumeChanged17_1 observer added
+[2021-06-06 13:22:27](src/frontend.mm:112):F:reprinting TUI at 147x34
+[2021-06-06 13:22:37](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-06-06 13:22:37](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:23:36](src/backend.c:175):B:server state changed to 1
+[2021-07-09 06:23:36](src/backend.c:175):B:server state changed to 2
+[2021-07-09 06:23:36](src/backend.c:175):B:server state changed to 3
+[2021-07-09 06:23:36](src/backend.c:175):B:server state changed to 4
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-09 06:23:36](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:23:36](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-09 06:23:36](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-09 06:23:36](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-09 06:23:36](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-09 06:23:36](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-09 06:23:36](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-09 06:23:36](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-09 06:23:36](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-09 06:23:36](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-09 06:23:36](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-09 06:23:36](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:23:36](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-09 06:23:36](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-09 06:23:36](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-09 06:23:36](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-09 06:23:36](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-09 06:23:36](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-09 06:23:36](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:23:36](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-09 06:23:36](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:23:36](src/backend.c:202):B:2:spotify appeared
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged2_1_0 observer added
+[2021-07-09 06:23:36](src/middleware.m:89):M:volumeChanged2_1_1 observer added
+[2021-07-09 06:23:36](src/middleware.m:100):M:muteChanged2_1 observer added
+[2021-07-09 06:23:36](src/middleware.m:101):M:2:spotify:spotify received
+[2021-07-09 06:23:36](src/main.mm:83):D:2:spotify passed
+[2021-07-09 06:23:36](src/widgets/widget.mm:43):F:2:spotify posted
+[2021-07-09 06:23:36](src/widgets/widget.mm:159):F:2:spotify options added
+[2021-07-09 06:23:36](src/middleware.m:141):M:volumeChanged2_1 observer added
+[2021-07-09 06:23:44](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:45](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:45](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:45](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:46](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:46](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:47](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:47](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-09 06:23:54](src/frontend.mm:112):F:reprinting TUI at 176x19
+[2021-07-09 06:23:55](src/frontend.mm:112):F:reprinting TUI at 180x44
+[2021-07-09 06:23:55](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:23:56](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:23:56](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:24:00](src/backend.c:175):B:server state changed to 1
+[2021-07-09 06:24:00](src/backend.c:175):B:server state changed to 2
+[2021-07-09 06:24:00](src/backend.c:175):B:server state changed to 3
+[2021-07-09 06:24:00](src/backend.c:175):B:server state changed to 4
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-09 06:24:00](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:24:00](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-09 06:24:00](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-09 06:24:00](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-09 06:24:00](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-09 06:24:00](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-09 06:24:00](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-09 06:24:00](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-09 06:24:00](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-09 06:24:00](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-09 06:24:00](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-09 06:24:00](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:24:00](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-09 06:24:00](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-09 06:24:00](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-09 06:24:00](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-09 06:24:00](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-09 06:24:00](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-09 06:24:00](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:24:00](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-09 06:24:00](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:24:00](src/backend.c:202):B:2:spotify appeared
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged2_1_0 observer added
+[2021-07-09 06:24:00](src/middleware.m:89):M:volumeChanged2_1_1 observer added
+[2021-07-09 06:24:00](src/middleware.m:100):M:muteChanged2_1 observer added
+[2021-07-09 06:24:00](src/middleware.m:101):M:2:spotify:spotify received
+[2021-07-09 06:24:00](src/main.mm:83):D:2:spotify passed
+[2021-07-09 06:24:00](src/widgets/widget.mm:43):F:2:spotify posted
+[2021-07-09 06:24:00](src/widgets/widget.mm:159):F:2:spotify options added
+[2021-07-09 06:24:00](src/middleware.m:141):M:volumeChanged2_1 observer added
+[2021-07-09 06:24:05](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:05](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:05](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:05](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:06](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:06](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:06](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:06](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:07](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:13](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:14](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:14](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:14](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:14](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:15](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:15](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:15](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:15](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:15](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:16](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:16](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:16](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:17](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:17](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:17](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:19](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:19](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:19](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:21](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:21](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:21](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:22](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:22](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:22](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:22](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:22](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:23](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:24:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:25:57](src/backend.c:175):B:server state changed to 1
+[2021-07-09 06:25:57](src/backend.c:175):B:server state changed to 2
+[2021-07-09 06:25:57](src/backend.c:175):B:server state changed to 3
+[2021-07-09 06:25:57](src/backend.c:175):B:server state changed to 4
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-09 06:25:57](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:25:57](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-09 06:25:57](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-09 06:25:57](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-09 06:25:57](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-09 06:25:57](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-09 06:25:57](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-09 06:25:57](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-09 06:25:57](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-09 06:25:57](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-09 06:25:57](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-09 06:25:57](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-09 06:25:57](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-09 06:25:57](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-09 06:25:57](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-09 06:25:57](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-09 06:25:57](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-09 06:25:57](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-09 06:25:57](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:25:57](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-09 06:25:57](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-09 06:25:57](src/backend.c:202):B:2:spotify appeared
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged2_1_0 observer added
+[2021-07-09 06:25:57](src/middleware.m:89):M:volumeChanged2_1_1 observer added
+[2021-07-09 06:25:57](src/middleware.m:100):M:muteChanged2_1 observer added
+[2021-07-09 06:25:57](src/middleware.m:101):M:2:spotify:spotify received
+[2021-07-09 06:25:57](src/main.mm:83):D:2:spotify passed
+[2021-07-09 06:25:57](src/widgets/widget.mm:43):F:2:spotify posted
+[2021-07-09 06:25:57](src/widgets/widget.mm:159):F:2:spotify options added
+[2021-07-09 06:25:57](src/middleware.m:141):M:volumeChanged2_1 observer added
+[2021-07-09 06:26:04](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-09 06:26:04](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2021-07-09 06:26:05](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2021-07-09 06:26:09](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:10](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:10](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:10](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:11](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:11](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:11](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:11](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:12](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:12](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:12](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:13](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:13](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:14](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:14](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:14](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:14](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:14](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:15](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:15](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:15](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:15](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:19](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:20](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:20](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:20](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:20](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:21](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:21](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:21](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:21](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:29](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:29](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:30](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:30](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:31](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:32](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:32](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:32](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:32](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:32](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:35](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:35](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:35](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:35](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:35](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:36](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:37](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:40](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:41](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-09 06:26:42](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-13 07:14:30](src/backend.c:175):B:server state changed to 1
+[2021-07-13 07:14:30](src/backend.c:175):B:server state changed to 2
+[2021-07-13 07:14:30](src/backend.c:175):B:server state changed to 3
+[2021-07-13 07:14:30](src/backend.c:175):B:server state changed to 4
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-13 07:14:30](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-13 07:14:30](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-13 07:14:30](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-13 07:14:30](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-13 07:14:30](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-13 07:14:30](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-13 07:14:30](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-13 07:14:30](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-13 07:14:30](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-13 07:14:30](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-13 07:14:30](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-13 07:14:30](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-13 07:14:30](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-13 07:14:30](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-13 07:14:30](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-13 07:14:30](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-13 07:14:30](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-13 07:14:30](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-13 07:14:30](src/backend.c:202):B:1:spotify appeared
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged1_1_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged1_1_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:100):M:muteChanged1_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:101):M:1:spotify:spotify received
+[2021-07-13 07:14:30](src/main.mm:83):D:1:spotify passed
+[2021-07-13 07:14:30](src/widgets/widget.mm:43):F:1:spotify posted
+[2021-07-13 07:14:30](src/widgets/widget.mm:159):F:1:spotify options added
+[2021-07-13 07:14:30](src/middleware.m:141):M:volumeChanged1_1 observer added
+[2021-07-13 07:14:30](src/backend.c:202):B:0:cava appeared
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_3_0 observer added
+[2021-07-13 07:14:30](src/middleware.m:89):M:volumeChanged0_3_1 observer added
+[2021-07-13 07:14:30](src/middleware.m:100):M:muteChanged0_3 observer added
+[2021-07-13 07:14:30](src/middleware.m:101):M:0:cava:cava received
+[2021-07-13 07:14:30](src/main.mm:83):D:0:cava passed
+[2021-07-13 07:14:30](src/widgets/widget.mm:43):F:0:cava posted
+[2021-07-13 07:14:30](src/widgets/widget.mm:159):F:0:cava options added
+[2021-07-13 07:14:30](src/middleware.m:141):M:volumeChanged0_3 observer added
+[2021-07-13 07:15:20](src/middleware.m:203):M:controlChanged1_1 notification posted
+[2021-07-13 07:15:20](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-13 07:15:20](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-13 07:15:20](src/middleware.m:203):M:controlChanged1_1 notification posted
+[2021-07-13 07:16:52](src/backend.c:202):B:2:Google Chrome appeared
+[2021-07-13 07:16:52](src/middleware.m:89):M:volumeChanged2_1_0 observer added
+[2021-07-13 07:16:52](src/middleware.m:89):M:volumeChanged2_1_1 observer added
+[2021-07-13 07:16:52](src/middleware.m:100):M:muteChanged2_1 observer added
+[2021-07-13 07:16:52](src/middleware.m:101):M:2:Google Chrome:Google Chrome received
+[2021-07-13 07:16:52](src/main.mm:83):D:2:Google Chrome passed
+[2021-07-13 07:16:52](src/widgets/widget.mm:43):F:2:Google Chrome posted
+[2021-07-13 07:16:52](src/widgets/widget.mm:159):F:2:Google Chrome options added
+[2021-07-13 07:16:52](src/middleware.m:141):M:volumeChanged2_1 observer added
+[2021-07-13 07:16:52](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-13 07:16:55](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-07-13 07:17:00](src/frontend.mm:195):F:2_1 removed at index 5
+[2021-07-13 07:17:00](src/frontend.mm:212):F:2_1 removed at index 6
+[2021-07-13 07:17:01](src/middleware.m:217):M:2:controlDisappeared notification posted
+[2021-07-13 07:19:16](src/backend.c:202):B:3:Google Chrome appeared
+[2021-07-13 07:19:16](src/middleware.m:89):M:volumeChanged3_1_0 observer added
+[2021-07-13 07:19:16](src/middleware.m:89):M:volumeChanged3_1_1 observer added
+[2021-07-13 07:19:16](src/middleware.m:100):M:muteChanged3_1 observer added
+[2021-07-13 07:19:16](src/middleware.m:101):M:3:Google Chrome:Google Chrome received
+[2021-07-13 07:19:16](src/main.mm:83):D:3:Google Chrome passed
+[2021-07-13 07:19:16](src/widgets/widget.mm:43):F:3:Google Chrome posted
+[2021-07-13 07:19:16](src/widgets/widget.mm:159):F:3:Google Chrome options added
+[2021-07-13 07:19:16](src/middleware.m:141):M:volumeChanged3_1 observer added
+[2021-07-13 07:19:17](src/middleware.m:203):M:controlChanged3_1 notification posted
+[2021-07-13 07:19:31](src/middleware.m:203):M:controlChanged3_1 notification posted
+[2021-07-13 07:19:36](src/frontend.mm:195):F:3_1 removed at index 5
+[2021-07-13 07:19:36](src/frontend.mm:212):F:3_1 removed at index 6
+[2021-07-13 07:19:36](src/middleware.m:217):M:3:controlDisappeared notification posted
+[2021-07-13 07:19:44](src/frontend.mm:112):F:reprinting TUI at 104x51
+[2021-07-13 07:19:44](src/frontend.mm:112):F:reprinting TUI at 83x16
+[2021-07-13 07:19:44](src/frontend.mm:112):F:reprinting TUI at 83x12
+[2021-07-13 07:19:48](src/backend.c:202):B:4:Google Chrome appeared
+[2021-07-13 07:19:48](src/middleware.m:89):M:volumeChanged4_1_0 observer added
+[2021-07-13 07:19:48](src/middleware.m:89):M:volumeChanged4_1_1 observer added
+[2021-07-13 07:19:48](src/middleware.m:100):M:muteChanged4_1 observer added
+[2021-07-13 07:19:48](src/middleware.m:101):M:4:Google Chrome:Google Chrome received
+[2021-07-13 07:19:48](src/main.mm:83):D:4:Google Chrome passed
+[2021-07-13 07:19:48](src/widgets/widget.mm:43):F:4:Google Chrome posted
+[2021-07-13 07:19:48](src/widgets/widget.mm:159):F:4:Google Chrome options added
+[2021-07-13 07:19:48](src/middleware.m:141):M:volumeChanged4_1 observer added
+[2021-07-13 07:19:48](src/middleware.m:203):M:controlChanged4_1 notification posted
+[2021-07-13 07:19:48](src/middleware.m:203):M:controlChanged4_1 notification posted
+[2021-07-13 07:19:50](src/middleware.m:203):M:controlChanged4_1 notification posted
+[2021-07-13 07:19:50](src/middleware.m:203):M:controlChanged4_1 notification posted
+[2021-07-13 07:19:54](src/frontend.mm:195):F:0_3 removed at index 4
+[2021-07-13 07:19:54](src/frontend.mm:212):F:0_3 removed at index 5
+[2021-07-13 07:19:54](src/middleware.m:217):M:0:controlDisappeared notification posted
+[2021-07-13 07:19:54](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-13 07:19:55](src/frontend.mm:195):F:4_1 removed at index 4
+[2021-07-13 07:19:55](src/frontend.mm:212):F:4_1 removed at index 5
+[2021-07-13 07:19:55](src/middleware.m:217):M:4:controlDisappeared notification posted
+[2021-07-13 07:19:55](src/frontend.mm:112):F:reprinting TUI at 83x16
+[2021-07-13 08:11:31](src/backend.c:175):B:server state changed to 1
+[2021-07-13 08:11:31](src/backend.c:175):B:server state changed to 2
+[2021-07-13 08:11:31](src/backend.c:175):B:server state changed to 3
+[2021-07-13 08:11:31](src/backend.c:175):B:server state changed to 4
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-13 08:11:31](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-13 08:11:31](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-13 08:11:31](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-13 08:11:31](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-13 08:11:31](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-13 08:11:31](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-13 08:11:31](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-13 08:11:31](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-13 08:11:31](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-13 08:11:31](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-13 08:11:31](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-13 08:11:31](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-13 08:11:31](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-13 08:11:31](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-13 08:11:31](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-13 08:11:31](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-13 08:11:31](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-13 08:11:31](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-13 08:11:31](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-13 08:11:31](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-13 08:11:31](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-13 08:11:31](src/backend.c:202):B:0:cava appeared
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_3_0 observer added
+[2021-07-13 08:11:31](src/middleware.m:89):M:volumeChanged0_3_1 observer added
+[2021-07-13 08:11:31](src/middleware.m:100):M:muteChanged0_3 observer added
+[2021-07-13 08:11:31](src/middleware.m:101):M:0:cava:cava received
+[2021-07-13 08:11:31](src/main.mm:83):D:0:cava passed
+[2021-07-13 08:11:31](src/widgets/widget.mm:43):F:0:cava posted
+[2021-07-13 08:11:31](src/widgets/widget.mm:159):F:0:cava options added
+[2021-07-13 08:11:31](src/middleware.m:141):M:volumeChanged0_3 observer added
+[2021-07-13 08:11:38](src/backend.c:202):B:0:Google Chrome appeared
+[2021-07-13 08:11:38](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2021-07-13 08:11:38](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2021-07-13 08:11:38](src/middleware.m:100):M:muteChanged0_1 observer added
+[2021-07-13 08:11:38](src/middleware.m:101):M:0:Google Chrome:Google Chrome received
+[2021-07-13 08:11:38](src/main.mm:83):D:0:Google Chrome passed
+[2021-07-13 08:11:38](src/widgets/widget.mm:43):F:0:Google Chrome posted
+[2021-07-13 08:11:38](src/widgets/widget.mm:159):F:0:Google Chrome options added
+[2021-07-13 08:11:38](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2021-07-13 08:11:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-13 08:11:38](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2021-07-13 08:11:48](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2021-07-13 08:11:48](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-13 08:11:53](src/frontend.mm:195):F:0_1 removed at index 4
+[2021-07-13 08:11:53](src/frontend.mm:212):F:0_1 removed at index 5
+[2021-07-13 08:11:53](src/middleware.m:217):M:0:controlDisappeared notification posted
+[2021-07-13 08:12:12](src/backend.c:202):B:1:spotify appeared
+[2021-07-13 08:12:12](src/middleware.m:89):M:volumeChanged1_1_0 observer added
+[2021-07-13 08:12:12](src/middleware.m:89):M:volumeChanged1_1_1 observer added
+[2021-07-13 08:12:12](src/middleware.m:100):M:muteChanged1_1 observer added
+[2021-07-13 08:12:12](src/middleware.m:101):M:1:spotify:spotify received
+[2021-07-13 08:12:12](src/main.mm:83):D:1:spotify passed
+[2021-07-13 08:12:12](src/widgets/widget.mm:43):F:1:spotify posted
+[2021-07-13 08:12:12](src/widgets/widget.mm:159):F:1:spotify options added
+[2021-07-13 08:12:12](src/middleware.m:141):M:volumeChanged1_1 observer added
+[2021-07-13 08:12:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-07-13 08:12:12](src/middleware.m:203):M:controlChanged1_1 notification posted
+[2021-07-13 08:12:55](src/frontend.mm:112):F:reprinting TUI at 77x16
+[2021-07-13 08:12:55](src/frontend.mm:112):F:reprinting TUI at 77x24
+[2021-07-13 08:12:57](src/frontend.mm:112):F:reprinting TUI at 77x15
+[2021-07-13 08:13:20](src/frontend.mm:112):F:reprinting TUI at 77x24
+[2021-07-13 08:13:32](src/frontend.mm:195):F:0_3 removed at index 3
+[2021-07-13 08:13:32](src/frontend.mm:212):F:0_3 removed at index 4
+[2021-07-13 08:13:32](src/middleware.m:217):M:0:controlDisappeared notification posted
+[2021-07-13 08:13:32](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-07-14 07:27:48](src/backend.c:175):B:server state changed to 1
+[2021-07-14 07:27:48](src/backend.c:175):B:server state changed to 2
+[2021-07-14 07:27:48](src/backend.c:175):B:server state changed to 3
+[2021-07-14 07:27:48](src/backend.c:175):B:server state changed to 4
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-14 07:27:48](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-14 07:27:48](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-14 07:27:48](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-14 07:27:48](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-14 07:27:48](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-14 07:27:48](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-14 07:27:48](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-14 07:27:48](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-14 07:27:48](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-14 07:27:48](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-14 07:27:48](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-14 07:27:48](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-14 07:27:48](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-14 07:27:48](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-14 07:27:48](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-14 07:27:48](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-14 07:27:48](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-14 07:27:48](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-14 07:27:48](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-14 07:27:48](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-14 07:27:48](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-07-14 07:27:48](src/backend.c:202):B:0:Google Chrome appeared
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2021-07-14 07:27:48](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2021-07-14 07:27:48](src/middleware.m:100):M:muteChanged0_1 observer added
+[2021-07-14 07:27:48](src/middleware.m:101):M:0:Google Chrome:Google Chrome received
+[2021-07-14 07:27:48](src/main.mm:83):D:0:Google Chrome passed
+[2021-07-14 07:27:48](src/widgets/widget.mm:43):F:0:Google Chrome posted
+[2021-07-14 07:27:48](src/widgets/widget.mm:159):F:0:Google Chrome options added
+[2021-07-14 07:27:48](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2021-07-25 03:22:18](src/backend.c:175):B:server state changed to 1
+[2021-07-25 03:22:18](src/backend.c:175):B:server state changed to 2
+[2021-07-25 03:22:18](src/backend.c:175):B:server state changed to 3
+[2021-07-25 03:22:18](src/backend.c:175):B:server state changed to 4
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-07-25 03:22:18](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-07-25 03:22:18](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-07-25 03:22:18](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-07-25 03:22:18](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-07-25 03:22:18](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-07-25 03:22:18](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-07-25 03:22:18](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-07-25 03:22:18](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-07-25 03:22:18](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-07-25 03:22:18](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-07-25 03:22:18](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-07-25 03:22:18](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-07-25 03:22:18](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-07-25 03:22:18](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-07-25 03:22:18](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-07-25 03:22:18](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-07-25 03:22:18](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-07-25 03:22:18](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-07-25 03:22:18](src/main.mm:83):D:0:Built-in Audio passed
+[2021-07-25 03:22:18](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-07-25 03:22:18](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-07-25 03:22:18](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-07-25 03:22:18](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-09-28 07:00:10](src/backend.c:175):B:server state changed to 1
+[2021-09-28 07:00:10](src/backend.c:175):B:server state changed to 2
+[2021-09-28 07:00:10](src/backend.c:175):B:server state changed to 3
+[2021-09-28 07:00:10](src/backend.c:175):B:server state changed to 4
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-09-28 07:00:10](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-09-28 07:00:10](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-09-28 07:00:10](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-09-28 07:00:10](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-09-28 07:00:10](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-09-28 07:00:10](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-09-28 07:00:10](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-09-28 07:00:10](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-09-28 07:00:10](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-09-28 07:00:10](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-09-28 07:00:10](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-09-28 07:00:10](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-09-28 07:00:10](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-09-28 07:00:10](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-09-28 07:00:10](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-09-28 07:00:10](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-09-28 07:00:10](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-09-28 07:00:10](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-09-28 07:00:10](src/main.mm:83):D:0:Built-in Audio passed
+[2021-09-28 07:00:10](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-09-28 07:00:10](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-09-28 07:00:10](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-09-28 07:00:10](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-09-28 07:00:13](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2021-10-01 13:21:23](src/backend.c:175):B:server state changed to 1
+[2021-10-01 13:21:23](src/backend.c:175):B:server state changed to 2
+[2021-10-01 13:21:23](src/backend.c:175):B:server state changed to 3
+[2021-10-01 13:21:23](src/backend.c:175):B:server state changed to 4
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-10-01 13:21:23](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-10-01 13:21:23](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-10-01 13:21:23](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-10-01 13:21:23](src/main.mm:83):D:0:Built-in Audio passed
+[2021-10-01 13:21:23](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-10-01 13:21:23](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-10-01 13:21:23](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-10-01 13:21:23](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-10-01 13:21:23](src/backend.c:202):B:3:Google Chrome appeared
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged3_1_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged3_1_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged3_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:3:Google Chrome:Google Chrome received
+[2021-10-01 13:21:23](src/main.mm:83):D:3:Google Chrome passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:3:Google Chrome posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:3:Google Chrome options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged3_1 observer added
+[2021-10-01 13:21:23](src/backend.c:202):B:9:Google Chrome appeared
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged9_1_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged9_1_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged9_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:9:Google Chrome:Google Chrome received
+[2021-10-01 13:21:23](src/main.mm:83):D:9:Google Chrome passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:9:Google Chrome posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:9:Google Chrome options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged9_1 observer added
+[2021-10-01 13:21:23](src/backend.c:202):B:10:Google Chrome appeared
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged10_1_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged10_1_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged10_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:10:Google Chrome:Google Chrome received
+[2021-10-01 13:21:23](src/main.mm:83):D:10:Google Chrome passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:10:Google Chrome posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:10:Google Chrome options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged10_1 observer added
+[2021-10-01 13:21:23](src/backend.c:202):B:2:Google Chrome input appeared
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged2_3_0 observer added
+[2021-10-01 13:21:23](src/middleware.m:89):M:volumeChanged2_3_1 observer added
+[2021-10-01 13:21:23](src/middleware.m:100):M:muteChanged2_3 observer added
+[2021-10-01 13:21:23](src/middleware.m:101):M:2:Google Chrome input:Google Chrome input received
+[2021-10-01 13:21:23](src/main.mm:83):D:2:Google Chrome input passed
+[2021-10-01 13:21:23](src/widgets/widget.mm:43):F:2:Google Chrome input posted
+[2021-10-01 13:21:23](src/widgets/widget.mm:159):F:2:Google Chrome input options added
+[2021-10-01 13:21:23](src/middleware.m:141):M:volumeChanged2_3 observer added
+[2021-10-01 13:21:27](src/frontend.mm:195):F:10_1 removed at index 5
+[2021-10-01 13:21:27](src/frontend.mm:212):F:10_1 removed at index 6
+[2021-10-01 13:21:27](src/middleware.m:217):M:10:controlDisappeared notification posted
+[2021-10-03 05:56:24](src/backend.c:175):B:server state changed to 1
+[2021-10-03 05:56:24](src/backend.c:175):B:server state changed to 2
+[2021-10-03 05:56:24](src/backend.c:175):B:server state changed to 3
+[2021-10-03 05:56:24](src/backend.c:175):B:server state changed to 4
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2021-10-03 05:56:24](src/middleware.m:100):M:muteChanged0_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:101):M:0:Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo received
+[2021-10-03 05:56:24](src/main.mm:83):D:0:Built-in Audio Analog Stereo passed
+[2021-10-03 05:56:24](src/widgets/widget.mm:43):F:0:Built-in Audio Analog Stereo posted
+[2021-10-03 05:56:24](src/widgets/widget.mm:159):F:0:Built-in Audio Analog Stereo options added
+[2021-10-03 05:56:24](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2021-10-03 05:56:24](src/middleware.m:100):M:muteChanged0_2 observer added
+[2021-10-03 05:56:24](src/middleware.m:101):M:0:Monitor of Built-in Audio Analog Stereo:alsa_output.pci-0000_00_1f.3.analog-stereo.monitor received
+[2021-10-03 05:56:24](src/main.mm:83):D:0:Monitor of Built-in Audio Analog Stereo passed
+[2021-10-03 05:56:24](src/widgets/widget.mm:43):F:0:Monitor of Built-in Audio Analog Stereo posted
+[2021-10-03 05:56:24](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2021-10-03 05:56:24](src/middleware.m:100):M:muteChanged1_2 observer added
+[2021-10-03 05:56:24](src/middleware.m:101):M:1:Built-in Audio Analog Stereo:alsa_input.pci-0000_00_1f.3.analog-stereo received
+[2021-10-03 05:56:24](src/main.mm:83):D:1:Built-in Audio Analog Stereo passed
+[2021-10-03 05:56:24](src/widgets/widget.mm:43):F:1:Built-in Audio Analog Stereo posted
+[2021-10-03 05:56:24](src/widgets/widget.mm:159):F:1:Built-in Audio Analog Stereo options added
+[2021-10-03 05:56:24](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2021-10-03 05:56:24](src/main.mm:83):D:0:Built-in Audio passed
+[2021-10-03 05:56:24](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2021-10-03 05:56:24](src/widgets/widget.mm:211):F:0:Built-in Audio Analog Stereo set as default
+[2021-10-03 05:56:24](src/widgets/widget.mm:211):F:0:Monitor of Built-in Audio Analog Stereo set as default
+[2021-10-03 05:56:24](src/widgets/widget.mm:211):F:1:Built-in Audio Analog Stereo set as default
+[2021-10-03 05:56:24](src/backend.c:202):B:2:Google Chrome appeared
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged2_1_0 observer added
+[2021-10-03 05:56:24](src/middleware.m:89):M:volumeChanged2_1_1 observer added
+[2021-10-03 05:56:24](src/middleware.m:100):M:muteChanged2_1 observer added
+[2021-10-03 05:56:24](src/middleware.m:101):M:2:Google Chrome:Google Chrome received
+[2021-10-03 05:56:24](src/main.mm:83):D:2:Google Chrome passed
+[2021-10-03 05:56:24](src/widgets/widget.mm:43):F:2:Google Chrome posted
+[2021-10-03 05:56:24](src/widgets/widget.mm:159):F:2:Google Chrome options added
+[2021-10-03 05:56:24](src/middleware.m:141):M:volumeChanged2_1 observer added
+[2021-10-03 05:56:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:36](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-10-03 05:56:36](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:36](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:36](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-10-03 05:56:47](src/middleware.m:203):M:controlChanged2_1 notification posted
+[2021-10-03 05:56:47](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:52](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2021-10-03 05:56:52](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2021-10-03 05:56:52](src/frontend.mm:195):F:2_1 removed at index 3
+[2021-10-03 05:56:52](src/frontend.mm:212):F:2_1 removed at index 4
+[2021-10-03 05:56:52](src/middleware.m:217):M:2:controlDisappeared notification posted
+[2021-10-03 05:58:57](src/frontend.mm:112):F:reprinting TUI at 176x17
+[2021-10-09 11:31:45](src/backend.c:175):B:server state changed to 1
+[2021-10-09 11:31:48](src/backend.c:175):B:server state changed to 6
+[2021-10-09 11:31:48](src/backend.c:175):B:server state changed to 1
+[2021-10-09 11:31:56](src/backend.c:175):B:server state changed to 1
+[2021-10-09 11:32:00](src/backend.c:175):B:server state changed to 1
+[2021-10-09 11:32:03](src/backend.c:175):B:server state changed to 6
+[2021-10-09 11:32:03](src/backend.c:175):B:server state changed to 1

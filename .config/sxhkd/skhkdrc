@@ -1,0 +1,74 @@
+##
+## wm independent hotkeys
+##
+#
+#ctrl + q
+#    move-tab-win.sh
+## TODO REMOVE
+#super + F5
+#    juststop.sh
+#
+## terminal emulator
+#super + Return
+#    st
+#
+## program launcher
+#super + shift + Return
+#    dmenu_run
+#
+#super + shift + p
+#    passmenu
+#
+#super + g
+#    dmenu-git-emoji
+#
+#super + e
+#    dmenu-unicode
+#
+#super + w
+#    surf
+#
+#super + shift + w 
+#    brave
+#
+#super + c
+#    st -e quich
+#
+#super + F1
+#    sys-stats
+#
+#super + F2
+#    timetable
+#
+#super + XF86AudioRaiseVolume
+#  audio-control increase 5
+#
+#super + XF86AudioLowerVolume
+#  audio-control decrease 5
+#
+#XF86AudioRaiseVolume
+#  audio-control increase 10
+#
+#XF86AudioLowerVolume
+#  audio-control decrease 10
+#
+## Power
+#super + F3
+#  powermgr Reboot
+#
+#super + F4
+#  powermgr Shutdown
+#
+#super + Pause
+#  powermgr Suspend
+#
+##keybr light
+#super + Scroll_Lock
+#  xset led named "Scroll Lock"
+#
+#super + shift + Scroll_Lock
+#  xset -led named "Scroll Lock"
+#
+## make sxhkd reload its configuration files:
+## super + Escape
+##    pkill -USR1 -x sxhkd

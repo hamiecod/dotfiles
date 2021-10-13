@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Screenshot.desktop" score="2" last-seen="1622901057"/>
+    <application id="firefox.desktop" score="3" last-seen="1622901285"/>
+    <application id="org.gnome.Nautilus.desktop" score="3" last-seen="1622900966"/>
+    <application id="gnome-control-center.desktop" score="7" last-seen="1622900089"/>
+    <application id="org.gnome.Terminal.desktop" score="58" last-seen="1622902390"/>
+    <application id="org.gnome.Epiphany.desktop" score="185" last-seen="1622901822"/>
+    <application id="discord.desktop" score="26" last-seen="1622902379"/>
+  </context>
+</application-state>

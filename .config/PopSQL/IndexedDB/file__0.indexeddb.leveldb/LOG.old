@@ -1,0 +1,3 @@
+2021/10/09-16:32:57.431 66c Reusing MANIFEST /home/hamiecod/.config/PopSQL/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/10/09-16:32:57.432 66c Recovering log #3
+2021/10/09-16:32:57.451 66c Reusing old log /home/hamiecod/.config/PopSQL/IndexedDB/file__0.indexeddb.leveldb/000003.log 

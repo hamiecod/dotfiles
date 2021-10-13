@@ -1,0 +1,4 @@
+[2021-08-13 17:11:00.419] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-08-13 17:11:20.422] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-08-13 17:11:20.424] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-08-13 17:11:30.417] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

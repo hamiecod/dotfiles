@@ -1,0 +1,11 @@
+[2021-08-13 17:10:48.546] [main] [info] window: using vscode-file:// protocol and V8 cache options: bypassHeatCheck
+[2021-08-13 17:10:48.602] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2021-08-13 17:13:40.091] [main] [error] [uncaught exception in main]: Error: SharedProcess: crashed (detail: killed, code: 15)
+[2021-08-13 17:13:40.091] [main] [error] Error: SharedProcess: crashed (detail: killed, code: 15)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:59:69368
+    at P.fire (/usr/lib/code/out/vs/code/electron-main/main.js:16:1726)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:14:48058
+    at P.fire (/usr/lib/code/out/vs/code/electron-main/main.js:16:1726)
+    at Object.<anonymous> (/usr/lib/code/out/vs/code/electron-main/main.js:58:9492)
+    at Object.emit (events.js:327:22)
+[2021-08-13 17:13:40.097] [main] [error] CodeWindow: renderer process crashed (reason: killed, code: 15)

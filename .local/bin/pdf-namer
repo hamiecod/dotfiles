@@ -1,0 +1,22 @@
+#!/bin/sh
+
+not="not"
+
+zathura --version || echo "Install zathura"
+dmenu -v || echo "Install dmenu"
+
+mkdir ./correct
+
+cp ./*.pdf ./correct/
+
+for file in `ls *.pdf`; do
+    zathura "$file"
+    newfile=`echo "" | dmenu -i -p "PDF Name:"`
+    if [ $newfile = 'not' ]
+    then
+        mv "./correct/$file" "./correct/not$newfile.pdf"
+    else
+        mv "./correct/$file" "./correct/$newfile.pdf"
+    fi
+done
+

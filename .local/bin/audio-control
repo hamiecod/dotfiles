@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Handles audio increase and decrease ; 
+# Sends signal to dwmblocks to update the volume
+
+decrease () {
+    pactl set-sink-volume 1 -$2%
+    pkill -RTMIN+10 dwmblocks
+}
+
+increase () {
+    pactl set-sink-volume 1 +$2%
+    pkill -RTMIN+10 dwmblocks
+}
+
+vol () {
+    echo `pacmd list-sinks | awk '/^\svolume:/{i++} i=='2'{print $5; exit}'`
+}
+
+"$1" "$@" 

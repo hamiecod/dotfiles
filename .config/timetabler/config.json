@@ -1,0 +1,32 @@
+{
+  "Mon": [
+    "Phy",
+    "Hin",
+    "Mat"
+  ],
+  "Tue": [
+    "SST",
+    "NIL",
+    "HIN"
+  ],
+  "Wed": [
+    "MAT",
+    "ENG",
+    "SST"
+  ],
+  "THU": [
+    "HIN",
+    "MATH",
+    "SST"
+  ],
+  "FRI": [
+    "ENG",
+    "MAT",
+    "BIO"
+  ],
+  "SAT": [
+    "CHE",
+    "ENG",
+    "NIL"
+  ]
+}

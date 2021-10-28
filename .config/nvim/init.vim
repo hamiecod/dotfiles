@@ -31,27 +31,29 @@ call plug#begin()
 " coc plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Svelte syntax
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 " FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'SidOfc/mkdx'
-
 " One dark pro theme
 Plug 'joshdick/onedark.vim'
+
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'vimlab/split-term.vim'
 
 Plug 'arcticicestudio/nord-vim'
 
 Plug 'pangloss/vim-javascript'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'leafgarland/typescript-vim'
-
-" Svelte syntax
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'folke/tokyonight.nvim', {'branch':'main'}
 
 Plug 'mattn/emmet-vim'
 " Comment
@@ -59,11 +61,16 @@ Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdcommenter'
 call plug#end()
 
+set termguicolors
+set mouse+=a
+
+let g:airline_theme='hybrid'
+
 syntax enable
 filetype plugin indent on
 
 colorscheme nord
-" set bg=dark
+set bg=dark
 " Transparent 
 "hi Normal guibg=NONE ctermbg=NONE
 

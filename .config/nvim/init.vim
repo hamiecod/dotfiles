@@ -1,4 +1,10 @@
-source ~/.config/nvim/vim-plug/plugins.vim
+set number
+" source ~/AppData/Local/nvim/vim-plug/plugins.vim
+
+syntax on
+
+set tabstop=4
+set smartindent
 
 set number
 set tabstop=4 softtabstop=4
@@ -17,12 +23,14 @@ set hidden
 set noerrorbells
 set ignorecase
 
+
 set termguicolors
 set scrolloff=8
 
 set signcolumn=yes
 set colorcolumn=80
 
+" leader for the keybinds
 let mapleader = " "
 
 
@@ -31,45 +39,100 @@ call plug#begin()
 " coc plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+" Autosave plugin
+Plug 'Pocco81/AutoSave.nvim'
+
+" nerd tree: a file explorer for neovim
+Plug 'preservim/nerdtree'
+
+" database
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
+
+" Markdown(.md) files preview in browser
+Plug 'suan/vim-instant-markdown', {'rtp':'after'}
+
+"emojis
+Plug 'junegunn/vim-emoji'
+
+" hyperfocus on a range
+Plug 'junegunn/limelight.vim'
+
+Plug 'frazrepo/vim-rainbow'
+
+" File management
+Plug 'vifm/vifm.vim'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+" change surrounding marks
+Plug 'tpope/vim-surround'
+
+" icons for neovim
+Plug 'kyazdani42/nvim-web-devicons'
+
+" distraction free writing
+Plug 'junegunn/goyo.vim'
+
+" color preview for css
+Plug 'ap/vim-css-color'
+
+" Top tab bar
+Plug 'romgrk/barbar.nvim'
+
+" Wakatime extension
+Plug 'wakatime/vim-wakatime'
+
+"prettier 
+Plug 'sbdchd/neoformat'
+
+" Bottom bar for neovim
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" splits neovim into neovim and a terminal(might not work on windows)
+Plug 'vimlab/split-term.vim'
 
 " FZF
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
+
 
 " One dark pro theme
 Plug 'joshdick/onedark.vim'
 
-Plug 'kyazdani42/nvim-web-devicons'
-Plug 'romgrk/barbar.nvim'
-
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
-Plug 'vimlab/split-term.vim'
-
+" nord color theme
 Plug 'arcticicestudio/nord-vim'
 
+" Plugin for javascript
 Plug 'pangloss/vim-javascript'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'leafgarland/typescript-vim'
+
+" Color theme: currently the main
 Plug 'folke/tokyonight.nvim', {'branch':'main'}
 
+" Svelte syntax
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
+" Emmet for vim, support html and xml
 Plug 'mattn/emmet-vim'
-" Comment
 
 Plug 'preservim/nerdcommenter'
 call plug#end()
 
+let g:neovide_cursor_vfx_mode = "wireframe"
+
+"displays all matches when tab complete
+set wildmenu
+
 set termguicolors
 set mouse+=a
 
+" setting airline theme
 let g:airline_theme='hybrid'
 
 syntax enable
 filetype plugin indent on
 
-colorscheme nord
+colorscheme tokyonight
 set bg=dark
 " Transparent 
 "hi Normal guibg=NONE ctermbg=NONE
@@ -77,6 +140,12 @@ set bg=dark
 " Quick Escape
 inoremap jk <Esc>
 inoremap kj <Esc>
+
+" run prettier on save
+autocmd BufWritePre,TextChanged,InsertLeave * Neoformat
+autocmd FileType * setlocal formatprg=prettier\ --single-quote\ --trailing-comma\
+" use formatprg when available
+let g:neoformat_try_formatprg=1
 
 " Fzf bindings
 nnoremap <C-p> :Files<CR>
@@ -122,6 +191,8 @@ set updatetime=300
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
+
+" COC CONFIG
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
@@ -267,3 +338,16 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+map <C-w> :tabclose<CR>
+
+" nerdtree config
+map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrowExpandable = '►'
+let g:NERDTreeDirArrowCollapsible = '▼'
+let NERDTreeShowLineNumbers=1
+let NERDTreeShowHidden=1
+let NERDTreeMinimalUI = 1
+let g:NERDTreeWinSize=38
+
+let g:neovide_transparency=0.9
